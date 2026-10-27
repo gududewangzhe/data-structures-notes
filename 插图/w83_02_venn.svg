@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="309.081pt" height="114.08733pt" viewBox="-72 -72 309.081 114.08733" style="position: absolute; top: 0pt; left: 0pt; overflow: visible;">
+<g transform="translate(-2.5021362304687496,-16.090805053710934)">
+<g stroke-miterlimit="10" transform="scale(1,-1)"><g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <g transform="translate(-64.526,47.98512)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">nested</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="25.763275146484368" style="font-family: cmr7;" font-size="7">sets</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="41.47447967529296" style="font-family: cmr7;" font-size="7">=</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="50.307856559753404" style="font-family: cmr7;" font-size="7">paren</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="69.59267616271971" style="font-family: cmr7;" font-size="7">thesis</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="91.98447418212889" style="font-family: cmr7;" font-size="7">form:</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="113.96376609802243" style="font-family: cmr7;" font-size="7">the</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="127.75550746917722" style="font-family: cmr7;" font-size="7">same</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="147.7292261123657" style="font-family: cmr7;" font-size="7">tree</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M -2.6178 -2.6178 M 64.13228 -2.6178 C 64.13228 18.34486 34.24773 35.33798 -2.6178 35.33798 C -39.48332 35.33798 -69.36787 18.34486 -69.36787 -2.6178 C -69.36787 -23.58046 -39.48332 -40.57358 -2.6178 -40.57358 C 34.24773 -40.57358 64.13228 -23.58046 64.13228 -2.6178 Z M -2.6178 -2.6178  " fill="none"></path>
+ </g>
+ <g transform="translate(-5.5692,27.97313)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">A</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M -40.57361 -6.5441 M -18.32346 -6.5441 C -18.32346 2.41919 -28.28503 9.68517 -40.57361 9.68517 C -52.86218 9.68517 -62.82376 2.41919 -62.82376 -6.5441 C -62.82376 -15.50739 -52.86218 -22.77336 -40.57361 -22.77336 C -28.28503 -22.77336 -18.32346 -15.50739 -18.32346 -6.5441 Z M -40.57361 -6.5441  " fill="none"></path>
+ </g>
+ <g transform="translate(-43.36876,3.36717)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">B</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M -45.02356 -16.22926 M -34.02951 -16.22926 C -34.02951 -13.3379 -38.95164 -10.99406 -45.02356 -10.99406 C -51.09547 -10.99406 -56.01761 -13.3379 -56.01761 -16.22926 C -56.01761 -19.12062 -51.09547 -21.46446 -45.02356 -21.46446 C -38.95164 -21.46446 -34.02951 -19.12062 -34.02951 -16.22926 Z M -45.02356 -16.22926  " fill="none"></path>
+ </g>
+ <g transform="translate(-47.27359,-17.92867)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">E</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(-29.64857,-13.47871)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">F</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 14.39713 -5.2352 M 30.62639 -5.2352 C 30.62639 1.27042 23.36041 6.54411 14.39713 6.54411 C 5.43384 6.54411 -1.83214 1.27042 -1.83214 -5.2352 C -1.83214 -11.74081 5.43384 -17.01451 14.39713 -17.01451 C 23.36041 -17.01451 30.62639 -11.74081 30.62639 -5.2352 Z M 14.39713 -5.2352  " fill="none"></path>
+ </g>
+ <g transform="translate(11.54295,1.27301)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">C</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(11.81375,-7.98189)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">G</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 40.57361 -23.0354 M 55.756 -23.0354 C 55.756 -17.25269 48.95871 -12.56499 40.57361 -12.56499 C 32.1885 -12.56499 25.39122 -17.25269 25.39122 -23.0354 C 25.39122 -28.81812 32.1885 -33.50581 40.57361 -33.50581 C 48.95871 -33.50581 55.756 -28.81812 55.756 -23.0354 Z M 40.57361 -23.0354  " fill="none"></path>
+ </g>
+ <g transform="translate(37.56319,-19.66821)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">D</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(34.71909,-28.3995)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">H</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(39.3375,-28.3995)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">I</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(42.24709,-28.3995)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">J</text>
+</g> </g>
+ </g></g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(-64.526,-53.60294)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">a</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="6.5951709747314435" style="font-family: cmr5;" font-size="5">closed</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="26.977432250976555" style="font-family: cmr5;" font-size="5">region</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="47.672198295593255" style="font-family: cmr5;" font-size="5">is</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="54.79036140441893" style="font-family: cmr5;" font-size="5">a</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="60.554340362548814" style="font-family: cmr5;" font-size="5">set;</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="73.4364776611328" style="font-family: cmr5;" font-size="5">nesting</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="97.22157287597653" style="font-family: cmr5;" font-size="5">is</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="104.33973598480222" style="font-family: cmr5;" font-size="5">con</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="114.37460327148435" style="font-family: cmr5;" font-size="5">tainmen</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="138.36802959442136" style="font-family: cmr5;" font-size="5">t</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(87.29759,20.50015)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">V</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="6.088167190551756" style="font-family: cmr7;" font-size="7">enn</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="21.171580314636227" style="font-family: cmr7;" font-size="7">diagram:</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(87.29759,10.02931)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">a</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="7.511782646179197" style="font-family: cmr7;" font-size="7">closed</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="31.152194023132317" style="font-family: cmr7;" font-size="7">region</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(87.29759,-1.04529)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">means</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="25.22160053253173" style="font-family: cmr7;" font-size="7">con</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="36.96471214294433" style="font-family: cmr7;" font-size="7">tainmen</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="65.08291149139403" style="font-family: cmr7;" font-size="7">t</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(87.29759,-10.91191)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">shap</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="17.034051895141598" style="font-family: cmr7;" font-size="7">e</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="23.284085273742672" style="font-family: cmr7;" font-size="7">do</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="31.902178764343255" style="font-family: cmr7;" font-size="7">es</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="41.32028865814208" style="font-family: cmr7;" font-size="7">not</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="55.54258728027342" style="font-family: cmr7;" font-size="7">matter</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(87.29759,-28.60701)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">P</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="5.990935325622558" style="font-family: cmr7;" font-size="7">aren</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="20.859065055847164" style="font-family: cmr7;" font-size="7">thesis</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="43.25086307525634" style="font-family: cmr7;" font-size="7">form:</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(87.29759,-38.3969)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr7;" font-size="7">A(B(E(K,L),F),C(G),D(H,I,J,M))</text>
+</g> </g>
+ </g></g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(87.29759,-49.67662)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(0.8311920166015623,-16.090805053710934)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-16.090805053710934" x="0.8311920166015623" style="font-family: cmr5;" font-size="5">outer</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="18.817580223083493" style="font-family: cmr5;" font-size="5">brac</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="31.5608205795288" style="font-family: cmr5;" font-size="5">k</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="34.96363639831542" style="font-family: cmr5;" font-size="5">ets</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="45.83185672760009" style="font-family: cmr5;" font-size="5">=</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="53.331980705261216" style="font-family: cmr5;" font-size="5">ro</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="59.61680221557616" style="font-family: cmr5;" font-size="5">ot;</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="70.10307121276854" style="font-family: cmr5;" font-size="5">eac</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="79.44347763061522" style="font-family: cmr5;" font-size="5">h</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="85.55468463897704" style="font-family: cmr5;" font-size="5">sibling</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="107.6036396026611" style="font-family: cmr5;" font-size="5">pair</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="121.83997058868405" style="font-family: cmr5;" font-size="5">=</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="129.3400945663452" style="font-family: cmr5;" font-size="5">a</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="135.10407352447507" style="font-family: cmr5;" font-size="5">c</text>
+<text alignment-baseline="baseline" y="-16.090805053710934" x="137.986044883728" style="font-family: cmr5;" font-size="5">hild</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ </g>
+ </g></g></svg>
