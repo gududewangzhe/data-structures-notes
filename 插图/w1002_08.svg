@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="520" viewBox="0 0 950 520">
+  <defs>
+    <marker id="arr-b8" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#1e6bb8"/>
+    </marker>
+    <marker id="arr-ins8" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; fill: #172b4d; }
+    .title { font-size: 20px; font-weight: bold; fill: #091e42; }
+    .subtitle { font-size: 15px; fill: #5e6c84; }
+    .sub-head { font-size: 16px; font-weight: bold; fill: #091e42; }
+    .node-val { font-size: 16px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #091e42; }
+    .node-c { fill: #ffffff; stroke: #1e6bb8; stroke-width: 2.2; }
+    .node-new { fill: #ffebe6; stroke: #de350b; stroke-width: 2.5; }
+    .child-link { fill: none; stroke: #1e6bb8; stroke-width: 2; marker-end: url(#arr-b8); }
+    .insert-path { fill: none; stroke: #de350b; stroke-width: 2.5; stroke-dasharray: 5,4; marker-end: url(#arr-ins8); }
+    .seq-box { fill: #e3fcef; stroke: #36b37e; stroke-width: 1.5; rx: 4; }
+    .seq-text { font-size: 15px; font-weight: bold; fill: #006644; }
+    .legend-text { font-size: 14px; fill: #172b4d; }
+  </style>
+
+  <text class="title" x="30" y="38">二叉排序树（BST）的中序有序性与动态插入机制</text>
+  <text class="subtitle" x="30" y="66">树中数值来自课堂实例 ｜ 中序遍历必然产出单调严格递增序列</text>
+
+  <!-- 中序序列条 -->
+  <g transform="translate(30, 85)">
+    <rect class="seq-box" x="0" y="0" width="890" height="40"/>
+    <text class="seq-text" x="20" y="25">中序序列：13 → 20 → 21 → 24 → [35 插入点] → 56 → 65 → 77 → 80 → 88</text>
+  </g>
+
+  <!-- BST 树形结构 -->
+  <!-- 根结点 56 -->
+  <g transform="translate(480, 180)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">56</text>
+  </g>
+
+  <!-- 左子树：21 -->
+  <g transform="translate(280, 250)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">21</text>
+  </g>
+  <line class="child-link" x1="460" y1="190" x2="300" y2="240"/>
+
+  <!-- 右子树：77 -->
+  <g transform="translate(680, 250)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">77</text>
+  </g>
+  <line class="child-link" x1="500" y1="190" x2="660" y2="240"/>
+
+  <!-- 21 的左孩子：13 -->
+  <g transform="translate(180, 320)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">13</text>
+  </g>
+  <line class="child-link" x1="265" y1="262" x2="195" y2="308"/>
+
+  <!-- 13 的右孩子：20 -->
+  <g transform="translate(230, 390)">
+    <circle class="node-c" r="20"/>
+    <text class="node-val">20</text>
+  </g>
+  <line class="child-link" x1="195" y1="332" x2="220" y2="372"/>
+
+  <!-- 21 的右孩子：24 -->
+  <g transform="translate(360, 320)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">24</text>
+  </g>
+  <line class="child-link" x1="295" y1="262" x2="345" y2="308"/>
+
+  <!-- 动态插入新结点 35（成为 24 的右孩子） -->
+  <g transform="translate(420, 390)">
+    <circle class="node-new" r="22"/>
+    <text class="node-val" fill="#de350b">35</text>
+    <text x="32" y="5" font-size="13" font-weight="bold" fill="#de350b">新插入</text>
+  </g>
+
+  <!-- 插入搜索路径跟踪（红虚线） -->
+  <path class="insert-path" d="M470 160 C400 180 320 220 295 240 C325 265 350 290 365 310 C385 335 410 360 415 372"/>
+  <text x="440" y="280" font-size="13" font-weight="bold" fill="#de350b">比较路径：</text>
+  <text x="440" y="302" font-size="12" fill="#de350b">① 35 &lt; 56 走左</text>
+  <text x="440" y="322" font-size="12" fill="#de350b">② 35 &gt; 21 走右</text>
+  <text x="440" y="342" font-size="12" fill="#de350b">③ 35 &gt; 24 走右（为空）</text>
+  <text x="440" y="362" font-size="12" fill="#de350b">④ 挂入 24-&gt;rchild</text>
+
+  <!-- 77 的左孩子：65 -->
+  <g transform="translate(600, 320)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">65</text>
+  </g>
+  <line class="child-link" x1="665" y1="262" x2="615" y2="308"/>
+
+  <!-- 77 的右孩子：88 -->
+  <g transform="translate(760, 320)">
+    <circle class="node-c" r="22"/>
+    <text class="node-val">88</text>
+  </g>
+  <line class="child-link" x1="695" y1="262" x2="745" y2="308"/>
+
+  <!-- 88 的左孩子：80 -->
+  <g transform="translate(710, 390)">
+    <circle class="node-c" r="20"/>
+    <text class="node-val">80</text>
+  </g>
+  <line class="child-link" x1="748" y1="332" x2="722" y2="372"/>
+
+  <!-- 底部说明栏 -->
+  <g transform="translate(50, 475)">
+    <text class="legend-text" x="0" y="15">特性对照：BST（二叉链表存储，隐含线性有序） vs 堆（Heap，向量存储，隐含完全二叉树结构）</text>
+    <text class="legend-text" x="650" y="15">二叉链表利用率虽低，但插入删除无需大量搬移！</text>
+  </g>
+</svg>

@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="325" viewBox="0 0 940 325">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker><marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#1c7ed6"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .edge-blue { stroke: #1c7ed6; stroke-width: 2.2; fill: none; }
+    .edge-dash { stroke: #829ab1; stroke-width: 1.8; stroke-dasharray: 5,4; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; }
+    .box-hi { fill: #e7f5ff; stroke: #1c7ed6; stroke-width: 1.8; }
+    .box-warn { fill: #fff4e6; stroke: #d9480f; stroke-width: 1.8; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="210" y="22">无向图邻接矩阵（对称矩阵，行和＝度）</text>
+<line class="edge" x1="95" y1="155" x2="175" y2="85"/>
+<line class="edge" x1="95" y1="155" x2="175" y2="225"/>
+<line class="edge" x1="95" y1="155" x2="40" y2="85"/>
+<line class="edge" x1="95" y1="155" x2="40" y2="225"/>
+<line class="edge" x1="175" y1="85" x2="175" y2="225"/>
+<circle class="node-ok" cx="95" cy="155" r="18"/><text class="small" x="95" y="160" style="font-weight:bold;">v1</text>
+<circle class="node-ok" cx="175" cy="85" r="18"/><text class="small" x="175" y="90" style="font-weight:bold;">v2</text>
+<circle class="node-ok" cx="175" cy="225" r="18"/><text class="small" x="175" y="230" style="font-weight:bold;">v3</text>
+<circle class="node-ok" cx="40" cy="85" r="18"/><text class="small" x="40" y="90" style="font-weight:bold;">v4</text>
+<circle class="node-ok" cx="40" cy="225" r="18"/><text class="small" x="40" y="230" style="font-weight:bold;">v5</text>
+<rect class="box-hi" x="215" y="52" width="36" height="34"/>
+<text class="small" x="233" y="74"></text>
+<rect class="box-hi" x="251" y="52" width="36" height="34"/>
+<text class="small" x="269" y="74">v1</text>
+<rect class="box-hi" x="287" y="52" width="36" height="34"/>
+<text class="small" x="305" y="74">v2</text>
+<rect class="box-hi" x="323" y="52" width="36" height="34"/>
+<text class="small" x="341" y="74">v3</text>
+<rect class="box-hi" x="359" y="52" width="36" height="34"/>
+<text class="small" x="377" y="74">v4</text>
+<rect class="box-hi" x="395" y="52" width="36" height="34"/>
+<text class="small" x="413" y="74">v5</text>
+<rect class="box-hi" x="215" y="86" width="36" height="34"/>
+<text class="small" x="233" y="108">v1</text>
+<rect class="box" x="251" y="86" width="36" height="34"/>
+<text class="small" x="269" y="108">0</text>
+<rect class="box-warn" x="287" y="86" width="36" height="34"/>
+<text class="small" x="305" y="108">1</text>
+<rect class="box-warn" x="323" y="86" width="36" height="34"/>
+<text class="small" x="341" y="108">1</text>
+<rect class="box-warn" x="359" y="86" width="36" height="34"/>
+<text class="small" x="377" y="108">1</text>
+<rect class="box-warn" x="395" y="86" width="36" height="34"/>
+<text class="small" x="413" y="108">1</text>
+<rect class="box-hi" x="215" y="120" width="36" height="34"/>
+<text class="small" x="233" y="142">v2</text>
+<rect class="box" x="251" y="120" width="36" height="34"/>
+<text class="small" x="269" y="142">1</text>
+<rect class="box" x="287" y="120" width="36" height="34"/>
+<text class="small" x="305" y="142">0</text>
+<rect class="box" x="323" y="120" width="36" height="34"/>
+<text class="small" x="341" y="142">1</text>
+<rect class="box" x="359" y="120" width="36" height="34"/>
+<text class="small" x="377" y="142">0</text>
+<rect class="box" x="395" y="120" width="36" height="34"/>
+<text class="small" x="413" y="142">0</text>
+<rect class="box-hi" x="215" y="154" width="36" height="34"/>
+<text class="small" x="233" y="176">v3</text>
+<rect class="box" x="251" y="154" width="36" height="34"/>
+<text class="small" x="269" y="176">1</text>
+<rect class="box" x="287" y="154" width="36" height="34"/>
+<text class="small" x="305" y="176">1</text>
+<rect class="box" x="323" y="154" width="36" height="34"/>
+<text class="small" x="341" y="176">0</text>
+<rect class="box" x="359" y="154" width="36" height="34"/>
+<text class="small" x="377" y="176">0</text>
+<rect class="box" x="395" y="154" width="36" height="34"/>
+<text class="small" x="413" y="176">0</text>
+<rect class="box-hi" x="215" y="188" width="36" height="34"/>
+<text class="small" x="233" y="210">v4</text>
+<rect class="box" x="251" y="188" width="36" height="34"/>
+<text class="small" x="269" y="210">1</text>
+<rect class="box" x="287" y="188" width="36" height="34"/>
+<text class="small" x="305" y="210">0</text>
+<rect class="box" x="323" y="188" width="36" height="34"/>
+<text class="small" x="341" y="210">0</text>
+<rect class="box" x="359" y="188" width="36" height="34"/>
+<text class="small" x="377" y="210">0</text>
+<rect class="box" x="395" y="188" width="36" height="34"/>
+<text class="small" x="413" y="210">0</text>
+<rect class="box-hi" x="215" y="222" width="36" height="34"/>
+<text class="small" x="233" y="244">v5</text>
+<rect class="box" x="251" y="222" width="36" height="34"/>
+<text class="small" x="269" y="244">1</text>
+<rect class="box" x="287" y="222" width="36" height="34"/>
+<text class="small" x="305" y="244">0</text>
+<rect class="box" x="323" y="222" width="36" height="34"/>
+<text class="small" x="341" y="244">0</text>
+<rect class="box" x="359" y="222" width="36" height="34"/>
+<text class="small" x="377" y="244">0</text>
+<rect class="box" x="395" y="222" width="36" height="34"/>
+<text class="small" x="413" y="244">0</text>
+<text class="small" x="323" y="280">第 1 行和 = 4 = TD(v1)；A[i][j] = A[j][i]</text>
+</g>
+<g transform="translate(480, 20)">
+<text class="title" x="205" y="22">有向图邻接矩阵（行和＝出度 OD，列和＝入度 ID）</text>
+<line class="edge-blue" x1="79.0" y1="100.0" x2="144.0" y2="100.0" marker-end="url(#arrow-blue)"/>
+<line class="edge-blue" x1="73.1" y1="113.7" x2="150.5" y2="194.8" marker-end="url(#arrow-blue)"/>
+<line class="edge-blue" x1="165.0" y1="119.0" x2="165.0" y2="189.0" marker-end="url(#arrow-blue)"/>
+<line class="edge-blue" x1="146.0" y1="210.0" x2="81.0" y2="210.0" marker-end="url(#arrow-blue)"/>
+<line class="edge-blue" x1="60.0" y1="191.0" x2="60.0" y2="121.0" marker-end="url(#arrow-blue)"/>
+<circle class="node-hi" cx="60" cy="100" r="18"/><text class="small" x="60" y="105" style="font-weight:bold;">v1</text>
+<circle class="node-hi" cx="165" cy="100" r="18"/><text class="small" x="165" y="105" style="font-weight:bold;">v2</text>
+<circle class="node-hi" cx="165" cy="210" r="18"/><text class="small" x="165" y="215" style="font-weight:bold;">v3</text>
+<circle class="node-hi" cx="60" cy="210" r="18"/><text class="small" x="60" y="215" style="font-weight:bold;">v4</text>
+<rect class="box-hi" x="210" y="52" width="38" height="34"/>
+<text class="small" x="229" y="74">出\入</text>
+<rect class="box-hi" x="248" y="52" width="38" height="34"/>
+<text class="small" x="267" y="74">v1</text>
+<rect class="box-hi" x="286" y="52" width="38" height="34"/>
+<text class="small" x="305" y="74">v2</text>
+<rect class="box-hi" x="324" y="52" width="38" height="34"/>
+<text class="small" x="343" y="74">v3</text>
+<rect class="box-hi" x="362" y="52" width="38" height="34"/>
+<text class="small" x="381" y="74">v4</text>
+<rect class="box-hi" x="400" y="52" width="38" height="34"/>
+<text class="small" x="419" y="74">OD</text>
+<rect class="box-hi" x="210" y="86" width="38" height="34"/>
+<text class="small" x="229" y="108">v1</text>
+<rect class="box" x="248" y="86" width="38" height="34"/>
+<text class="small" x="267" y="108">0</text>
+<rect class="box" x="286" y="86" width="38" height="34"/>
+<text class="small" x="305" y="108">1</text>
+<rect class="box" x="324" y="86" width="38" height="34"/>
+<text class="small" x="343" y="108">1</text>
+<rect class="box" x="362" y="86" width="38" height="34"/>
+<text class="small" x="381" y="108">0</text>
+<rect class="box-warn" x="400" y="86" width="38" height="34"/>
+<text class="small" x="419" y="108">2</text>
+<rect class="box-hi" x="210" y="120" width="38" height="34"/>
+<text class="small" x="229" y="142">v2</text>
+<rect class="box" x="248" y="120" width="38" height="34"/>
+<text class="small" x="267" y="142">0</text>
+<rect class="box" x="286" y="120" width="38" height="34"/>
+<text class="small" x="305" y="142">0</text>
+<rect class="box" x="324" y="120" width="38" height="34"/>
+<text class="small" x="343" y="142">1</text>
+<rect class="box" x="362" y="120" width="38" height="34"/>
+<text class="small" x="381" y="142">0</text>
+<rect class="box-warn" x="400" y="120" width="38" height="34"/>
+<text class="small" x="419" y="142">1</text>
+<rect class="box-hi" x="210" y="154" width="38" height="34"/>
+<text class="small" x="229" y="176">v3</text>
+<rect class="box" x="248" y="154" width="38" height="34"/>
+<text class="small" x="267" y="176">0</text>
+<rect class="box" x="286" y="154" width="38" height="34"/>
+<text class="small" x="305" y="176">0</text>
+<rect class="box" x="324" y="154" width="38" height="34"/>
+<text class="small" x="343" y="176">0</text>
+<rect class="box" x="362" y="154" width="38" height="34"/>
+<text class="small" x="381" y="176">1</text>
+<rect class="box-warn" x="400" y="154" width="38" height="34"/>
+<text class="small" x="419" y="176">1</text>
+<rect class="box-hi" x="210" y="188" width="38" height="34"/>
+<text class="small" x="229" y="210">v4</text>
+<rect class="box" x="248" y="188" width="38" height="34"/>
+<text class="small" x="267" y="210">1</text>
+<rect class="box" x="286" y="188" width="38" height="34"/>
+<text class="small" x="305" y="210">0</text>
+<rect class="box" x="324" y="188" width="38" height="34"/>
+<text class="small" x="343" y="210">0</text>
+<rect class="box" x="362" y="188" width="38" height="34"/>
+<text class="small" x="381" y="210">0</text>
+<rect class="box-warn" x="400" y="188" width="38" height="34"/>
+<text class="small" x="419" y="210">1</text>
+<rect class="box-hi" x="210" y="222" width="38" height="34"/>
+<text class="small" x="229" y="244">ID</text>
+<rect class="box-warn" x="248" y="222" width="38" height="34"/>
+<text class="small" x="267" y="244">1</text>
+<rect class="box-warn" x="286" y="222" width="38" height="34"/>
+<text class="small" x="305" y="244">1</text>
+<rect class="box-warn" x="324" y="222" width="38" height="34"/>
+<text class="small" x="343" y="244">2</text>
+<rect class="box-warn" x="362" y="222" width="38" height="34"/>
+<text class="small" x="381" y="244">1</text>
+<rect class="box-warn" x="400" y="222" width="38" height="34"/>
+<text class="small" x="419" y="244">e=5</text>
+<text class="small" x="325" y="280">v2 行和=1(OD)，列和=1(ID)；TD(v2)=1+1=2</text>
+</g>
+</svg>

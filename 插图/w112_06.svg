@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="385" viewBox="0 0 920 385">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; }
+    .box-hi { fill: #e7f5ff; stroke: #1c7ed6; stroke-width: 1.8; }
+    .box-warn { fill: #fff4e6; stroke: #d9480f; stroke-width: 1.8; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="140" y="22">盲目合并：退化成瘦高单链 O(n)</text>
+<line class="edge-hi" x1="140" y1="112" x2="140" y2="88" marker-end="url(#arrow-hi)"/>
+<line class="edge-hi" x1="140" y1="172" x2="140" y2="148" marker-end="url(#arrow-hi)"/>
+<line class="edge-hi" x1="140" y1="232" x2="140" y2="208" marker-end="url(#arrow-hi)"/>
+<line class="edge-hi" x1="140" y1="292" x2="140" y2="268" marker-end="url(#arrow-hi)"/>
+<circle class="node-bad" cx="140" cy="70" r="18"/>
+<text class="small" x="140" y="75" style="font-weight:bold;">0</text>
+<circle class="node-bad" cx="140" cy="130" r="18"/>
+<text class="small" x="140" y="135" style="font-weight:bold;">1</text>
+<circle class="node-bad" cx="140" cy="190" r="18"/>
+<text class="small" x="140" y="195" style="font-weight:bold;">2</text>
+<circle class="node-bad" cx="140" cy="250" r="18"/>
+<text class="small" x="140" y="255" style="font-weight:bold;">...</text>
+<circle class="node-bad" cx="140" cy="310" r="18"/>
+<text class="small" x="140" y="315" style="font-weight:bold;">n-1</text>
+<text class="small" x="140" y="352">树高 = n，单次 Find 最坏 O(n)</text>
+</g>
+<g transform="translate(330, 20)">
+<text class="title" x="260" y="22">按大小合并：小数并入大树（树高不变）</text>
+<text class="subtitle" x="120" y="55">合并前：A(-5) 与 E(-2)</text>
+<line class="edge" x1="60" y1="150" x2="120" y2="90"/>
+<line class="edge" x1="180" y1="150" x2="120" y2="90"/>
+<line class="edge" x1="60" y1="210" x2="60" y2="150"/>
+<line class="edge" x1="180" y1="210" x2="180" y2="150"/>
+<line class="edge" x1="240" y1="150" x2="240" y2="90"/>
+<circle class="node-ok" cx="120" cy="90" r="18"/>
+<text class="small" x="120" y="95">A(-5)</text>
+<circle class="node" cx="60" cy="150" r="18"/>
+<text class="small" x="60" y="155">B</text>
+<circle class="node" cx="180" cy="150" r="18"/>
+<text class="small" x="180" y="155">C</text>
+<circle class="node" cx="60" cy="210" r="18"/>
+<text class="small" x="60" y="215">D</text>
+<circle class="node" cx="180" cy="210" r="18"/>
+<text class="small" x="180" y="215">I</text>
+<circle class="node-hi" cx="240" cy="90" r="18"/>
+<text class="small" x="240" y="95">E(-2)</text>
+<circle class="node" cx="240" cy="150" r="18"/>
+<text class="small" x="240" y="155">F</text>
+<line class="edge-ok" x1="280" y1="150" x2="340" y2="150" marker-end="url(#arrow-ok)"/>
+<text class="small" x="310" y="138" style="font-weight:bold;">E→A</text>
+<text class="subtitle" x="455" y="55">合并后：A(-7)（仍 3 层）</text>
+<line class="edge" x1="385" y1="150" x2="455" y2="90"/>
+<line class="edge" x1="455" y1="150" x2="455" y2="90"/>
+<line class="edge-ok" x1="525" y1="150" x2="455" y2="90"/>
+<line class="edge" x1="385" y1="210" x2="385" y2="150"/>
+<line class="edge" x1="455" y1="210" x2="455" y2="150"/>
+<line class="edge" x1="525" y1="210" x2="525" y2="150"/>
+<circle class="node-ok" cx="455" cy="90" r="18"/>
+<text class="small" x="455" y="95">A(-7)</text>
+<circle class="node" cx="385" cy="150" r="18"/>
+<text class="small" x="385" y="155">B</text>
+<circle class="node" cx="455" cy="150" r="18"/>
+<text class="small" x="455" y="155">C</text>
+<circle class="node-hi" cx="525" cy="150" r="18"/>
+<text class="small" x="525" y="155">E</text>
+<circle class="node" cx="385" cy="210" r="18"/>
+<text class="small" x="385" y="215">D</text>
+<circle class="node" cx="455" cy="210" r="18"/>
+<text class="small" x="455" y="215">I</text>
+<circle class="node" cx="525" cy="210" r="18"/>
+<text class="small" x="525" y="215">F</text>
+<text class="small" x="280" y="275">判别条件（负数）：S[root1] &lt; S[root2] 说明 root1 结点更多</text>
+<text class="small" x="280" y="300">大树合并后的树高 ≤ floor(log2 n) + 1，单次 Find 降至 O(log n)</text>
+</g>
+</svg>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="307.95483pt" height="99.69017pt" viewBox="-72 -72 307.95483 99.69017" style="position: absolute; top: 0pt; left: 0pt; overflow: visible;">
+<g transform="translate(-71.16111755371092,-27.870147705078118)">
+<g stroke-miterlimit="10" transform="scale(1,-1)"><g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <g transform="translate(3.53297,36.20578)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">build</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-47.35545444488525" style="font-family: cmr7;" font-size="7">a</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-40.67486381530761" style="font-family: cmr7;" font-size="7">BST</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-22.265039443969723" style="font-family: cmr7;" font-size="7">b</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-18.063635826110836" style="font-family: cmr7;" font-size="7">y</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-11.167759895324705" style="font-family: cmr7;" font-size="7">inserting</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="21.84770584106445" style="font-family: cmr7;" font-size="7">50,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="34.778332710266106" style="font-family: cmr7;" font-size="7">30,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="47.708959579467766" style="font-family: cmr7;" font-size="7">70,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="60.63958644866942" style="font-family: cmr7;" font-size="7">20,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="73.57021331787108" style="font-family: cmr7;" font-size="7">40,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="86.50084018707274" style="font-family: cmr7;" font-size="7">60,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="99.43146705627439" style="font-family: cmr7;" font-size="7">80</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="110.09819030761716" style="font-family: cmr7;" font-size="7">in</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="119.47324180603025" style="font-family: cmr7;" font-size="7">this</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="135.1413879394531" style="font-family: cmr7;" font-size="7">order</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 69.17664 23.55865 C 69.17664 27.0675 66.33221 29.91193 62.82336 29.91193 C 59.31451 29.91193 56.4701 27.0675 56.4701 23.55865 C 56.4701 20.0498 59.31451 17.20538 62.82336 17.20538 C 66.33221 17.20538 69.17664 20.0498 69.17664 23.55865 Z M 62.82336 23.55865  "></path>
+ </g>
+ </g>
+ <g transform="translate(58.83723,21.3031)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">50</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 43.00017 0.0 C 43.00017 3.50885 40.15575 6.35327 36.6469 6.35327 C 33.13805 6.35327 30.29362 3.50885 30.29362 0.0 C 30.29362 -3.50885 33.13805 -6.35327 36.6469 -6.35327 C 40.15575 -6.35327 43.00017 -3.50885 43.00017 0.0 Z M 36.6469 0.0  "></path>
+ </g>
+ </g>
+ <g transform="translate(32.66077,-2.25555)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">30</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 95.3531 0.0 C 95.3531 3.50885 92.50868 6.35327 88.99983 6.35327 C 85.49098 6.35327 82.64656 3.50885 82.64656 0.0 C 82.64656 -3.50885 85.49098 -6.35327 88.99983 -6.35327 C 92.50868 -6.35327 95.3531 -3.50885 95.3531 0.0 Z M 88.99983 0.0  "></path>
+ </g>
+ </g>
+ <g transform="translate(85.0137,-2.25555)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">70</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 28.60342 -23.55865 C 28.60342 -20.0498 25.759 -17.20538 22.25015 -17.20538 C 18.7413 -17.20538 15.89688 -20.0498 15.89688 -23.55865 C 15.89688 -27.0675 18.7413 -29.91193 22.25015 -29.91193 C 25.759 -29.91193 28.60342 -27.0675 28.60342 -23.55865 Z M 22.25015 -23.55865  "></path>
+ </g>
+ </g>
+ <g transform="translate(18.26402,-25.81421)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">20</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 57.3973 -23.55865 C 57.3973 -20.0498 54.55287 -17.20538 51.04402 -17.20538 C 47.53517 -17.20538 44.69075 -20.0498 44.69075 -23.55865 C 44.69075 -27.0675 47.53517 -29.91193 51.04402 -29.91193 C 54.55287 -29.91193 57.3973 -27.0675 57.3973 -23.55865 Z M 51.04402 -23.55865  "></path>
+ </g>
+ </g>
+ <g transform="translate(47.05789,-25.81421)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">40</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 80.95636 -23.55865 C 80.95636 -20.0498 78.11194 -17.20538 74.60309 -17.20538 C 71.09424 -17.20538 68.24982 -20.0498 68.24982 -23.55865 C 68.24982 -27.0675 71.09424 -29.91193 74.60309 -29.91193 C 78.11194 -29.91193 80.95636 -27.0675 80.95636 -23.55865 Z M 74.60309 -23.55865  "></path>
+ </g>
+ </g>
+ <g transform="translate(70.61696,-25.81421)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">60</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <g stroke-width="0.8">
+ <g fill="#fff">
+ <path d=" M 109.75024 -23.55865 C 109.75024 -20.0498 106.90582 -17.20538 103.39697 -17.20538 C 99.88812 -17.20538 97.0437 -20.0498 97.0437 -23.55865 C 97.0437 -27.0675 99.88812 -29.91193 103.39697 -29.91193 C 106.90582 -29.91193 109.75024 -27.0675 109.75024 -23.55865 Z M 103.39697 -23.55865  "></path>
+ </g>
+ </g>
+ <g transform="translate(99.41084,-25.81421)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr7;" font-size="7">80</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 57.80127 19.04051 L 41.66457 4.51746  " fill="none"></path>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 67.83955 19.0398 L 83.97646 4.51695  " fill="none"></path>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 33.12392 -5.7616 L 25.77008 -17.79555  " fill="none"></path>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 40.16612 -5.76212 L 47.52045 -17.79607  " fill="none"></path>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 85.47397 -5.76128 L 78.12045 -17.79533  " fill="none"></path>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 92.5163 -5.76251 L 99.87083 -17.79616  " fill="none"></path>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(66.8808,22.47119)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">1</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(26.04556,-0.30222)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">2</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(95.67508,-0.30222)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">3</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(11.91045,-23.86125)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">4</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(55.88673,-23.86125)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">5</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(64.2634,-23.86125)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">6</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(108.23967,-23.86125)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">7</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(123.94489,21.82256)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">red</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-55.952608108520494" style="font-family: cmr5;" font-size="5">n</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-52.376175880432115" style="font-family: cmr5;" font-size="5">um</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-43.31353664398193" style="font-family: cmr5;" font-size="5">b</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-39.389860153198235" style="font-family: cmr5;" font-size="5">er</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-31.264740943908684" style="font-family: cmr5;" font-size="5">=</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-23.764616966247555" style="font-family: cmr5;" font-size="5">insertion</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="4.7427682876586905" style="font-family: cmr5;" font-size="5">order</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(123.94489,12.66103)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">inorder:</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-41.36906242370605" style="font-family: cmr5;" font-size="5">20</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-32.20224952697753" style="font-family: cmr5;" font-size="5">30</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-23.03543663024902" style="font-family: cmr5;" font-size="5">40</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-13.868623733520504" style="font-family: cmr5;" font-size="5">50</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-4.701810836791991" style="font-family: cmr5;" font-size="5">60</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="4.4650020599365225" style="font-family: cmr5;" font-size="5">70</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="13.631814956665036" style="font-family: cmr5;" font-size="5">80</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(2.22409,-41.82361)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">ev</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-61.36937236785887" style="font-family: cmr5;" font-size="5">ery</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-49.66780757904051" style="font-family: cmr5;" font-size="5">new</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-35.70925331115722" style="font-family: cmr5;" font-size="5">no</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-28.382742881774895" style="font-family: cmr5;" font-size="5">de</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-19.215934753417965" style="font-family: cmr5;" font-size="5">lands</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-1.1948137283325193" style="font-family: cmr5;" font-size="5">on</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="8.319227218627928" style="font-family: cmr5;" font-size="5">a</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="14.083206176757809" style="font-family: cmr5;" font-size="5">leaf:</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="29.812591552734368" style="font-family: cmr5;" font-size="5">no</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="39.32663249969482" style="font-family: cmr5;" font-size="5">existing</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="64.95202827453612" style="font-family: cmr5;" font-size="5">no</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="72.27853870391844" style="font-family: cmr5;" font-size="5">de</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="81.44534683227538" style="font-family: cmr5;" font-size="5">is</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="88.56350994110106" style="font-family: cmr5;" font-size="5">mo</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="97.27892112731931" style="font-family: cmr5;" font-size="5">v</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="100.68173694610593" style="font-family: cmr5;" font-size="5">ed</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="109.84854507446286" style="font-family: cmr5;" font-size="5">or</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="118.32089710235593" style="font-family: cmr5;" font-size="5">relink</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="135.26558303833005" style="font-family: cmr5;" font-size="5">ed</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(2.22409,-50.98512)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(-67.82778930664061,-27.870147705078118)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-27.870147705078118" x="-67.82778930664061" style="font-family: cmr5;" font-size="5">the</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-55.952608108520494" style="font-family: cmr5;" font-size="5">shap</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-42.13293457031249" style="font-family: cmr5;" font-size="5">e</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-36.716188430786126" style="font-family: cmr5;" font-size="5">dep</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-25.98684883117675" style="font-family: cmr5;" font-size="5">ends</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-10.326877593994139" style="font-family: cmr5;" font-size="5">on</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="-0.8128366470336912" style="font-family: cmr5;" font-size="5">the</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="11.062344551086424" style="font-family: cmr5;" font-size="5">insertion</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="39.56972980499267" style="font-family: cmr5;" font-size="5">order:</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="60.26447772979735" style="font-family: cmr5;" font-size="5">start</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="76.8966770172119" style="font-family: cmr5;" font-size="5">from</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="93.04276466369627" style="font-family: cmr5;" font-size="5">20,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="104.22349452972409" style="font-family: cmr5;" font-size="5">30,</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="115.40422439575192" style="font-family: cmr5;" font-size="5">40</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="124.57103729248044" style="font-family: cmr5;" font-size="5">...</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="133.66837596893308" style="font-family: cmr5;" font-size="5">and</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="146.9324789047241" style="font-family: cmr5;" font-size="5">y</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="150.3352947235107" style="font-family: cmr5;" font-size="5">ou</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="159.84933567047116" style="font-family: cmr5;" font-size="5">get</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="171.37728881835935" style="font-family: cmr5;" font-size="5">a</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="177.14126777648923" style="font-family: cmr5;" font-size="5">righ</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="188.84282398223874" style="font-family: cmr5;" font-size="5">t-leaning</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="217.66271400451654" style="font-family: cmr5;" font-size="5">c</text>
+<text alignment-baseline="baseline" y="-27.870147705078118" x="220.54468536376947" style="font-family: cmr5;" font-size="5">hain</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ </g>
+ </g></g></svg>

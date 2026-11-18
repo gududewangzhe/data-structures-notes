@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; }
+    .box-hi { fill: #e7f5ff; stroke: #1c7ed6; stroke-width: 1.8; }
+    .box-warn { fill: #fff4e6; stroke: #d9480f; stroke-width: 1.8; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="150" y="22">压缩前：Find(E) 沿途找根</text>
+<line class="edge-hi" x1="150" y1="117" x2="150" y2="88" marker-end="url(#arrow-hi)"/>
+<line class="edge-hi" x1="150" y1="182" x2="150" y2="153" marker-end="url(#arrow-hi)"/>
+<line class="edge-hi" x1="150" y1="247" x2="150" y2="218" marker-end="url(#arrow-hi)"/>
+<line class="edge" x1="80" y1="182" x2="150" y2="153" marker-end="url(#arrow)"/>
+<line class="edge" x1="220" y1="247" x2="150" y2="218" marker-end="url(#arrow)"/>
+<circle class="node-ok" cx="150" cy="70" r="18"/>
+<text x="150" y="75" style="font-weight:bold;">A</text>
+<circle class="node" cx="150" cy="135" r="18"/>
+<text x="150" y="140" style="font-weight:bold;">B</text>
+<circle class="node-hi" cx="150" cy="200" r="18"/>
+<text x="150" y="205" style="font-weight:bold;">C</text>
+<circle class="node" cx="80" cy="200" r="18"/>
+<text x="80" y="205" style="font-weight:bold;">D</text>
+<circle class="node-hi" cx="150" cy="265" r="18"/>
+<text x="150" y="270" style="font-weight:bold;">E</text>
+<circle class="node" cx="220" cy="265" r="18"/>
+<text x="220" y="270" style="font-weight:bold;">F</text>
+<text class="small" x="150" y="315">路径：E → C → B → A（4 层）</text>
+</g>
+<g transform="translate(335, 165)">
+<line class="edge-ok" x1="0" y1="0" x2="70" y2="0" marker-end="url(#arrow-ok)"/>
+<text class="small" x="35" y="-12" style="font-weight:bold;">路径压缩</text>
+</g>
+<g transform="translate(420, 20)">
+<text class="title" x="190" y="22">压缩后：E 与 C 直接挂到根 A 下</text>
+<line class="edge" x1="90" y1="147" x2="190" y2="93" marker-end="url(#arrow)"/>
+<line class="edge-ok" x1="190" y1="147" x2="190" y2="93" marker-end="url(#arrow-ok)"/>
+<line class="edge-ok" x1="290" y1="147" x2="190" y2="93" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="90" y1="227" x2="90" y2="183" marker-end="url(#arrow)"/>
+<line class="edge" x1="190" y1="227" x2="190" y2="183" marker-end="url(#arrow)"/>
+<circle class="node-ok" cx="190" cy="75" r="18"/>
+<text x="190" y="80" style="font-weight:bold;">A</text>
+<circle class="node" cx="90" cy="165" r="18"/>
+<text x="90" y="170" style="font-weight:bold;">B</text>
+<circle class="node-hi" cx="190" cy="165" r="18"/>
+<text x="190" y="170" style="font-weight:bold;">C</text>
+<circle class="node-hi" cx="290" cy="165" r="18"/>
+<text x="290" y="170" style="font-weight:bold;">E</text>
+<circle class="node" cx="90" cy="245" r="18"/>
+<text x="90" y="250" style="font-weight:bold;">D</text>
+<circle class="node" cx="190" cy="245" r="18"/>
+<text x="190" y="250" style="font-weight:bold;">F</text>
+<text class="small" x="190" y="300">后续再查 E 或 C 只需 1 步；与按大小合并结合达 O(α(n))</text>
+</g>
+</svg>

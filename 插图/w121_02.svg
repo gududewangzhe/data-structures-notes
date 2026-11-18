@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="310" viewBox="0 0 860 310">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .edge-dash { stroke: #829ab1; stroke-width: 1.8; stroke-dasharray: 5,4; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; stroke-dasharray: 6,4; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="190" y="22">无向完全图（n=4, 边数 n(n-1)/2 = 6）</text>
+<line class="edge" x1="110" y1="85" x2="270" y2="85"/>
+<line class="edge" x1="110" y1="85" x2="270" y2="215"/>
+<line class="edge" x1="110" y1="85" x2="110" y2="215"/>
+<line class="edge" x1="270" y1="85" x2="270" y2="215"/>
+<line class="edge" x1="270" y1="85" x2="110" y2="215"/>
+<line class="edge" x1="270" y1="215" x2="110" y2="215"/>
+<circle class="node-ok" cx="110" cy="85" r="20"/><text x="110" y="91">v1</text>
+<circle class="node-ok" cx="270" cy="85" r="20"/><text x="270" y="91">v2</text>
+<circle class="node-ok" cx="270" cy="215" r="20"/><text x="270" y="221">v3</text>
+<circle class="node-ok" cx="110" cy="215" r="20"/><text x="110" y="221">v4</text>
+<text class="small" x="190" y="265">无序对 (vi, vj) 与 (vj, vi) 是同一条边</text>
+</g>
+<g transform="translate(440, 20)">
+<text class="title" x="190" y="22">有向完全图（n=4, 弧数 n(n-1) = 12）</text>
+<line class="edge-ok" x1="132.0" y1="92.0" x2="246.0" y2="92.0" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="248.0" y1="78.0" x2="134.0" y2="78.0" marker-end="url(#arrow)"/>
+<line class="edge-ok" x1="122.7" y1="104.3" x2="247.0" y2="205.3" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="257.3" y1="195.7" x2="133.0" y2="94.7" marker-end="url(#arrow)"/>
+<line class="edge-ok" x1="103.0" y1="107.0" x2="103.0" y2="191.0" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="117.0" y1="193.0" x2="117.0" y2="109.0" marker-end="url(#arrow)"/>
+<line class="edge-ok" x1="263.0" y1="107.0" x2="263.0" y2="191.0" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="277.0" y1="193.0" x2="277.0" y2="109.0" marker-end="url(#arrow)"/>
+<line class="edge-ok" x1="248.5" y1="93.4" x2="124.2" y2="194.4" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="131.5" y1="206.6" x2="255.8" y2="105.6" marker-end="url(#arrow)"/>
+<line class="edge-ok" x1="248.0" y1="208.0" x2="134.0" y2="208.0" marker-end="url(#arrow-ok)"/>
+<line class="edge" x1="132.0" y1="222.0" x2="246.0" y2="222.0" marker-end="url(#arrow)"/>
+<circle class="node-hi" cx="110" cy="85" r="20"/><text x="110" y="91">v1</text>
+<circle class="node-hi" cx="270" cy="85" r="20"/><text x="270" y="91">v2</text>
+<circle class="node-hi" cx="270" cy="215" r="20"/><text x="270" y="221">v3</text>
+<circle class="node-hi" cx="110" cy="215" r="20"/><text x="110" y="221">v4</text>
+<text class="small" x="190" y="265">任意两点间存在双向两条弧：&lt;vi,vj&gt; ≠ &lt;vj,vi&gt;</text>
+</g>
+</svg>

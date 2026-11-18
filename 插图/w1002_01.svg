@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="520" viewBox="0 0 950 520">
+  <defs>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#1e6bb8"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; fill: #172b4d; }
+    .title { font-size: 20px; font-weight: bold; fill: #091e42; }
+    .subtitle { font-size: 15px; fill: #5e6c84; }
+    .node-text { font-size: 18px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #091e42; }
+    .field-text { font-size: 14px; text-anchor: middle; dominant-baseline: central; fill: #42526e; }
+    .null-text { font-size: 14px; font-weight: bold; fill: #e74c3c; }
+    .child-link { fill: none; stroke: #1e6bb8; stroke-width: 2.2; marker-end: url(#arrow-blue); }
+    .null-link { fill: none; stroke: #e74c3c; stroke-width: 1.8; stroke-dasharray: 4,3; }
+    .node-box { fill: #ffffff; stroke: #091e42; stroke-width: 1.8; }
+    .port-box { fill: #ebf2fa; stroke: #a5b2c6; stroke-width: 1; }
+    .legend-text { font-size: 14px; fill: #172b4d; }
+  </style>
+
+  <text class="title" x="30" y="38">二叉链表的存储结构与空指针域分布（n = 7）</text>
+  <text class="subtitle" x="30" y="66">总指针域 2n = 14 个 ｜ 孩子边（非空指针）n - 1 = 6 条 ｜ 空指针域 n + 1 = 8 个</text>
+
+  <!-- 结点 A (根) -->
+  <g id="node-A" transform="translate(400, 95)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">A</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#1e6bb8"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#1e6bb8"/>
+  </g>
+
+  <!-- 结点 B -->
+  <g id="node-B" transform="translate(210, 185)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">B</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#1e6bb8"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#e74c3c"/>
+  </g>
+
+  <!-- 结点 C -->
+  <g id="node-C" transform="translate(580, 185)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">C</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#1e6bb8"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#1e6bb8"/>
+  </g>
+
+  <!-- 结点 E -->
+  <g id="node-E" transform="translate(90, 280)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">E</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#e74c3c"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#1e6bb8"/>
+  </g>
+
+  <!-- 结点 F -->
+  <g id="node-F" transform="translate(170, 380)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">F</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#e74c3c"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#e74c3c"/>
+  </g>
+
+  <!-- 结点 G -->
+  <g id="node-G" transform="translate(480, 280)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">G</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#e74c3c"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#e74c3c"/>
+  </g>
+
+  <!-- 结点 D -->
+  <g id="node-D" transform="translate(680, 280)">
+    <rect class="port-box" x="0" y="0" width="25" height="36"/>
+    <rect class="node-box" x="25" y="0" width="36" height="36"/>
+    <rect class="port-box" x="61" y="0" width="25" height="36"/>
+    <text class="node-text" x="43" y="18">D</text>
+    <circle cx="12.5" cy="18" r="3.5" fill="#e74c3c"/>
+    <circle cx="73.5" cy="18" r="3.5" fill="#e74c3c"/>
+  </g>
+
+  <!-- 实线指针（6条孩子边） -->
+  <path class="child-link" d="M412 113 C360 135 270 155 253 182"/>
+  <path class="child-link" d="M473 113 C530 135 600 155 623 182"/>
+  <path class="child-link" d="M222 203 C190 225 150 250 133 277"/>
+  <path class="child-link" d="M163 298 C175 325 195 350 213 377"/>
+  <path class="child-link" d="M592 203 C565 225 540 250 523 277"/>
+  <path class="child-link" d="M653 203 C680 225 705 250 723 277"/>
+
+  <!-- 空指针（8个 NULL 标示） -->
+  <path class="null-link" d="M283 203 L325 215"/>
+  <text class="null-text" x="330" y="220">^ NULL (1)</text>
+
+  <path class="null-link" d="M102 298 L55 315"/>
+  <text class="null-text" x="10" y="320">^ NULL (2)</text>
+
+  <path class="null-link" d="M182 398 L135 425"/>
+  <text class="null-text" x="90" y="435">^ NULL (3)</text>
+
+  <path class="null-link" d="M243 398 L290 425"/>
+  <text class="null-text" x="295" y="435">^ NULL (4)</text>
+
+  <path class="null-link" d="M492 298 L450 330"/>
+  <text class="null-text" x="410" y="345">^ NULL (5)</text>
+
+  <path class="null-link" d="M553 298 L590 330"/>
+  <text class="null-text" x="595" y="345">^ NULL (6)</text>
+
+  <path class="null-link" d="M692 298 L655 330"/>
+  <text class="null-text" x="625" y="350">^ NULL (7)</text>
+
+  <path class="null-link" d="M753 298 L800 330"/>
+  <text class="null-text" x="805" y="345">^ NULL (8)</text>
+
+  <!-- 图例栏 -->
+  <g transform="translate(50, 475)">
+    <rect class="port-box" x="0" y="0" width="20" height="20"/>
+    <rect class="node-box" x="20" y="0" width="30" height="20"/>
+    <rect class="port-box" x="50" y="0" width="20" height="20"/>
+    <text class="field-text" x="10" y="11">L</text>
+    <text class="field-text" x="35" y="11">data</text>
+    <text class="field-text" x="60" y="11">R</text>
+    <text class="legend-text" x="80" y="15">结点结构 [lchild | data | rchild]</text>
+
+    <line x1="320" y1="10" x2="360" y2="10" stroke="#1e6bb8" stroke-width="2.2" marker-end="url(#arrow-blue)"/>
+    <text class="legend-text" x="370" y="15">真实孩子指针（实线，共 6 条）</text>
+
+    <line x1="610" y1="10" x2="650" y2="10" stroke="#e74c3c" stroke-width="1.8" stroke-dasharray="4,3"/>
+    <text class="legend-text" x="660" y="15">空指针域（红色虚线，共 8 个）</text>
+  </g>
+</svg>

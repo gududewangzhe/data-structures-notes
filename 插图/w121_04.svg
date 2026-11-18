@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .edge-dash { stroke: #829ab1; stroke-width: 1.8; stroke-dasharray: 5,4; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; stroke-dasharray: 6,4; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="175" y="22">网（Network）：带权的图</text>
+<line class="edge" x1="90" y1="95" x2="260" y2="95"/>
+<text class="small" x="175.0" y="85.0" style="font-weight:bold;fill:#c92a2a;">12</text>
+<line class="edge" x1="260" y1="95" x2="260" y2="215"/>
+<text class="small" x="276.0" y="155.0" style="font-weight:bold;fill:#c92a2a;">8</text>
+<line class="edge" x1="260" y1="215" x2="90" y2="215"/>
+<text class="small" x="175.0" y="233.0" style="font-weight:bold;fill:#c92a2a;">15</text>
+<line class="edge" x1="90" y1="215" x2="90" y2="95"/>
+<text class="small" x="74.0" y="155.0" style="font-weight:bold;fill:#c92a2a;">5</text>
+<line class="edge" x1="90" y1="95" x2="260" y2="215"/>
+<text class="small" x="193.0" y="145.0" style="font-weight:bold;fill:#c92a2a;">20</text>
+<circle class="node-hi" cx="90" cy="95" r="20"/><text x="90" y="101">A</text>
+<circle class="node-hi" cx="260" cy="95" r="20"/><text x="260" y="101">B</text>
+<circle class="node-hi" cx="260" cy="215" r="20"/><text x="260" y="221">C</text>
+<circle class="node-hi" cx="90" cy="215" r="20"/><text x="90" y="221">D</text>
+<text class="small" x="175" y="268">边上带距离/耗费等数值（权）即称为网</text>
+</g>
+<g transform="translate(410, 20)">
+<text class="title" x="235" y="22">路径、简单路径与简单回路</text>
+<line class="edge-ok" x1="65" y1="150" x2="175" y2="90"/>
+<line class="edge" x1="65" y1="150" x2="175" y2="210"/>
+<line class="edge" x1="175" y1="90" x2="175" y2="210"/>
+<line class="edge-ok" x1="175" y1="90" x2="295" y2="90"/>
+<line class="edge" x1="175" y1="210" x2="295" y2="210"/>
+<line class="edge" x1="295" y1="90" x2="295" y2="210"/>
+<line class="edge-ok" x1="295" y1="90" x2="405" y2="150"/>
+<line class="edge" x1="295" y1="210" x2="405" y2="150"/>
+<circle class="node" cx="65" cy="150" r="18"/><text class="small" x="65" y="155" style="font-weight:bold;">v1</text>
+<circle class="node" cx="175" cy="90" r="18"/><text class="small" x="175" y="95" style="font-weight:bold;">v2</text>
+<circle class="node" cx="175" cy="210" r="18"/><text class="small" x="175" y="215" style="font-weight:bold;">v3</text>
+<circle class="node" cx="295" cy="90" r="18"/><text class="small" x="295" y="95" style="font-weight:bold;">v4</text>
+<circle class="node" cx="295" cy="210" r="18"/><text class="small" x="295" y="215" style="font-weight:bold;">v5</text>
+<circle class="node" cx="405" cy="150" r="18"/><text class="small" x="405" y="155" style="font-weight:bold;">v6</text>
+<text class="small" x="235" y="255">绿线 v1-v2-v4-v6：顶点不重复，简单路径（长度=3）</text>
+<text class="small" x="235" y="278">v2-v4-v5-v3-v2：首尾相同且中间不重复，简单回路</text>
+</g>
+</svg>

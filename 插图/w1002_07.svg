@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="490" viewBox="0 0 950 490">
+  <defs>
+    <marker id="arr-b7" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#1e6bb8"/>
+    </marker>
+    <marker id="arr-o7" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#d26b19"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; fill: #172b4d; }
+    .title { font-size: 20px; font-weight: bold; fill: #091e42; }
+    .subtitle { font-size: 15px; fill: #5e6c84; }
+    .sub-head { font-size: 16px; font-weight: bold; fill: #091e42; }
+    .card { fill: #f4f5f7; stroke: #dfe1e6; stroke-width: 1.2; rx: 6; }
+    .node-text { font-size: 17px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #091e42; }
+    .node-c { fill: #ffffff; stroke: #1e6bb8; stroke-width: 2.2; }
+    .node-s { fill: #deebff; stroke: #0747a6; stroke-width: 2.5; }
+    .child-link { fill: none; stroke: #1e6bb8; stroke-width: 2.2; marker-end: url(#arr-b7); }
+    .thread-link { fill: none; stroke: #d26b19; stroke-width: 2; stroke-dasharray: 6,4; marker-end: url(#arr-o7); }
+    .step-num { font-size: 13px; font-weight: bold; fill: #d26b19; }
+  </style>
+
+  <text class="title" x="30" y="38">中序线索二叉树中将结点 S 插入为结点 P 的右孩子</text>
+  <text class="subtitle" x="30" y="66">根据中序遍历规则：若插入在 P 的后面，必位于 P 的右链，分两种结构情形重构</text>
+
+  <!-- 左图：P 原无右孩子 -->
+  <g transform="translate(30, 85)">
+    <rect class="card" x="0" y="0" width="420" height="380"/>
+    <text class="sub-head" x="20" y="30">情形一：P 原来没有右孩子（P->RTag == 1）</text>
+
+    <!-- 结点 P -->
+    <g transform="translate(100, 100)">
+      <circle class="node-c" r="22"/>
+      <text class="node-text">P</text>
+    </g>
+
+    <!-- 插入的结点 S -->
+    <g transform="translate(220, 170)">
+      <circle class="node-s" r="22"/>
+      <text class="node-text" fill="#0747a6">S</text>
+      <text x="30" y="5" font-size="13" fill="#0747a6">新插入</text>
+    </g>
+
+    <!-- 原后继 Succ -->
+    <g transform="translate(330, 100)">
+      <circle class="node-c" r="22"/>
+      <text class="node-text">Succ</text>
+    </g>
+
+    <!-- 步骤1: S 继承 P 的右线索 -->
+    <path class="thread-link" d="M238 158 C270 140 295 120 310 110"/>
+    <text class="step-num" x="280" y="150">① S-&gt;rchild = P-&gt;rchild</text>
+
+    <!-- 步骤2: S 的左线索指向 P -->
+    <path class="thread-link" d="M200 162 C160 145 140 130 120 115"/>
+    <text class="step-num" x="110" y="165">② S-&gt;lchild = P</text>
+
+    <!-- 步骤3: P 的右孩子指向 S -->
+    <path class="child-link" d="M118 112 C150 130 180 150 200 160"/>
+    <text class="step-num" x="140" y="115">③ P-&gt;rchild = S</text>
+
+    <!-- 说明文字 -->
+    <rect x="15" y="235" width="390" height="130" fill="#ffffff" stroke="#c1c7d0" stroke-width="1" rx="4"/>
+    <text x="25" y="260" font-size="13" font-weight="bold" fill="#091e42">操作要点（3 个指针调整）：</text>
+    <text x="25" y="285" font-size="13" font-family="monospace">S-&gt;rchild = P-&gt;rchild; S-&gt;RTag = Thread;</text>
+    <text x="25" y="310" font-size="13" font-family="monospace">S-&gt;lchild = P;         S-&gt;LTag = Thread;</text>
+    <text x="25" y="335" font-size="13" font-family="monospace">P-&gt;rchild = S;         P-&gt;RTag = Link;</text>
+    <text x="25" y="355" font-size="13" fill="#2e7d32">P 的右标记从 Thread 变为 Link（成为真孩子边）</text>
+  </g>
+
+  <!-- 右图：P 原有右孩子 -->
+  <g transform="translate(480, 85)">
+    <rect class="card" x="0" y="0" width="440" height="380"/>
+    <text class="sub-head" x="20" y="30">情形二：P 原来有右子树（P->RTag == 0）</text>
+
+    <!-- 结点 P -->
+    <g transform="translate(80, 90)">
+      <circle class="node-c" r="22"/>
+      <text class="node-text">P</text>
+    </g>
+
+    <!-- 插入的结点 S -->
+    <g transform="translate(180, 140)">
+      <circle class="node-s" r="22"/>
+      <text class="node-text" fill="#0747a6">S</text>
+    </g>
+
+    <!-- 原右子树根 R -->
+    <g transform="translate(280, 190)">
+      <circle class="node-c" r="22"/>
+      <text class="node-text">R</text>
+      <text x="28" y="5" font-size="13" fill="#5e6c84">原右孩</text>
+    </g>
+
+    <!-- 原右子树中最左下结点 W -->
+    <g transform="translate(200, 260)">
+      <circle class="node-c" r="22"/>
+      <text class="node-text">W</text>
+      <text x="-65" y="5" font-size="13" fill="#d26b19" font-weight="bold">最左下</text>
+    </g>
+
+    <!-- 连线 -->
+    <path class="child-link" d="M98 102 C130 118 150 130 162 135"/>
+    <text class="step-num" x="110" y="98">③ P-&gt;rchild = S</text>
+
+    <path class="child-link" d="M198 152 C230 168 250 178 262 185"/>
+    <text class="step-num" x="220" y="155">① S-&gt;rchild = R</text>
+
+    <path class="thread-link" d="M165 145 C130 130 115 110 102 98"/>
+    <text class="step-num" x="70" y="145">② S-&gt;lchild = P</text>
+
+    <path class="thread-link" d="M182 250 C160 210 170 175 175 160"/>
+    <text class="step-num" x="80" y="220">④ W-&gt;lchild = S (更新前驱)</text>
+
+    <!-- 说明文字 -->
+    <rect x="15" y="280" width="410" height="85" fill="#ffffff" stroke="#c1c7d0" stroke-width="1" rx="4"/>
+    <text x="25" y="305" font-size="13" font-weight="bold" fill="#091e42">关键第 ④ 步（容易漏掉而失分！）：</text>
+    <text x="25" y="328" font-size="13">原右子树中最左下结点的左线索原来指向 P，</text>
+    <text x="25" y="350" font-size="13" fill="#d26b19" font-weight="bold">插入 S 后，其直接前驱变为 S，必须找到并更新！</text>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="520" viewBox="0 0 950 520">
+  <defs>
+    <marker id="arr-b5" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#1e6bb8"/>
+    </marker>
+    <marker id="arr-o5" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#d26b19"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; fill: #172b4d; }
+    .title { font-size: 20px; font-weight: bold; fill: #091e42; }
+    .subtitle { font-size: 15px; fill: #5e6c84; }
+    .node-text { font-size: 18px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #091e42; }
+    .head-text { font-size: 15px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #6554c0; }
+    .child-link { fill: none; stroke: #1e6bb8; stroke-width: 2.2; marker-end: url(#arr-b5); }
+    .thread-link { fill: none; stroke: #d26b19; stroke-width: 2; stroke-dasharray: 6,4; marker-end: url(#arr-o5); }
+    .loop-link { fill: none; stroke: #6554c0; stroke-width: 2.2; stroke-dasharray: 6,4; marker-end: url(#arr-o5); }
+    .node-c { fill: #ffffff; stroke: #1e6bb8; stroke-width: 2.2; }
+    .head-box { fill: #f3f0ff; stroke: #6554c0; stroke-width: 2.2; rx: 6; }
+    .legend-text { font-size: 14px; fill: #172b4d; }
+  </style>
+
+  <text class="title" x="30" y="38">带头结点的中序线索二叉树环形拓扑结构</text>
+  <text class="subtitle" x="30" y="66">头结点（Thrt）消除所有 NULL 悬空指针，构成双向闭合回路</text>
+
+  <!-- 头结点 Thrt -->
+  <g transform="translate(120, 80)">
+    <rect class="head-box" x="0" y="0" width="130" height="45"/>
+    <text class="head-text" x="65" y="22">头结点 Thrt</text>
+    <text x="5" y="-10" font-size="13" fill="#6554c0">[LTag=0 | RTag=1]</text>
+  </g>
+
+  <!-- 头结点指向根 A (lchild 实线) -->
+  <path class="child-link" d="M250 102 C340 102 430 115 480 128"/>
+
+  <!-- 树内孩子实线 -->
+  <line class="child-link" x1="490" y1="152" x2="380" y2="198"/>
+  <line class="child-link" x1="510" y1="152" x2="620" y2="198"/>
+  <line class="child-link" x1="360" y1="228" x2="260" y2="282"/>
+  <line class="child-link" x1="260" y1="318" x2="340" y2="372"/>
+  <line class="child-link" x1="620" y1="228" x2="550" y2="282"/>
+  <line class="child-link" x1="640" y1="228" x2="710" y2="282"/>
+
+  <!-- 内部线索 -->
+  <path class="thread-link" d="M335 385 C300 375 270 350 255 315"/>
+  <path class="thread-link" d="M365 385 C385 350 385 270 375 230"/>
+  <path class="thread-link" d="M388 200 C430 180 470 155 485 145"/>
+  <path class="thread-link" d="M525 295 C495 260 495 180 500 152"/>
+  <path class="thread-link" d="M555 290 C575 260 600 240 618 225"/>
+  <path class="thread-link" d="M715 290 C695 260 670 240 645 225"/>
+
+  <!-- 闭环拉线：首结点 E->lchild 指向 Thrt -->
+  <path class="loop-link" d="M232 295 C140 270 110 200 135 130"/>
+  <text x="90" y="220" font-size="13" fill="#6554c0" font-weight="bold">首结点左线索回指头结点</text>
+
+  <!-- 闭环拉线：尾结点 D->rchild 指向 Thrt -->
+  <path class="loop-link" d="M748 300 C860 300 870 110 255 90"/>
+  <text x="770" y="210" font-size="13" fill="#6554c0" font-weight="bold">尾结点右线索回指头结点</text>
+
+  <!-- 头结点右指针指向尾结点 D -->
+  <path class="thread-link" d="M185 125 C185 220 500 460 720 318"/>
+  <text x="460" y="445" font-size="13" fill="#d26b19" font-weight="bold">Thrt->rchild 指向中序末结点 D</text>
+
+  <!-- 结点圆 -->
+  <g transform="translate(500, 130)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">A</text>
+  </g>
+  <g transform="translate(370, 210)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">B</text>
+  </g>
+  <g transform="translate(630, 210)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">C</text>
+  </g>
+  <g transform="translate(250, 300)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">E</text>
+  </g>
+  <g transform="translate(350, 390)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">F</text>
+  </g>
+  <g transform="translate(540, 300)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">G</text>
+  </g>
+  <g transform="translate(730, 300)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">D</text>
+  </g>
+
+  <!-- 底部说明 -->
+  <g transform="translate(50, 485)">
+    <line x1="0" y1="8" x2="40" y2="8" stroke="#6554c0" stroke-width="2.2" stroke-dasharray="6,4" marker-end="url(#arr-o5)"/>
+    <text class="legend-text" x="50" y="13">头结点环形线索（无任何 NULL，形成封闭环）</text>
+    <text class="legend-text" x="500" y="13">遍历终止条件：p == Thrt（绕环一周回到表头）</text>
+  </g>
+</svg>

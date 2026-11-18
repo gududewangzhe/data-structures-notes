@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="520" viewBox="0 0 950 520">
+  <defs>
+    <marker id="arr-blue2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#1e6bb8"/>
+    </marker>
+    <marker id="arr-orange2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#d26b19"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; fill: #172b4d; }
+    .title { font-size: 20px; font-weight: bold; fill: #091e42; }
+    .subtitle { font-size: 15px; fill: #5e6c84; }
+    .node-text { font-size: 18px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #091e42; }
+    .tag-text { font-size: 14px; fill: #5e6c84; font-weight: bold; }
+    .child-link { fill: none; stroke: #1e6bb8; stroke-width: 2.2; marker-end: url(#arr-blue2); }
+    .thread-link { fill: none; stroke: #d26b19; stroke-width: 2; stroke-dasharray: 6,4; marker-end: url(#arr-orange2); }
+    .node-c { fill: #ffffff; stroke: #1e6bb8; stroke-width: 2.2; }
+    .legend-text { font-size: 14px; fill: #172b4d; }
+  </style>
+
+  <text class="title" x="30" y="38">先序线索二叉树示意图（无头结点）</text>
+  <text class="subtitle" x="30" y="66">先序遍历序列：A → B → E → F → C → G → D</text>
+
+  <!-- 孩子实线 -->
+  <line class="child-link" x1="440" y1="128" x2="310" y2="182"/>
+  <line class="child-link" x1="460" y1="128" x2="590" y2="182"/>
+  <line class="child-link" x1="290" y1="218" x2="190" y2="272"/>
+  <line class="child-link" x1="190" y1="308" x2="270" y2="362"/>
+  <line class="child-link" x1="590" y1="218" x2="520" y2="272"/>
+  <line class="child-link" x1="610" y1="218" x2="680" y2="272"/>
+
+  <!-- 先序线索虚线 -->
+  <!-- 1. B->rchild (rtag=1) 指向后继 C -->
+  <path class="thread-link" d="M318 205 C380 205 520 180 582 195"/>
+
+  <!-- 2. E->lchild (ltag=1) 指向前驱 B -->
+  <path class="thread-link" d="M165 285 C145 250 230 215 285 205"/>
+
+  <!-- 3. F->lchild (ltag=1) 指向前驱 E -->
+  <path class="thread-link" d="M265 375 C230 365 200 340 185 305"/>
+
+  <!-- 4. F->rchild (rtag=1) 指向后继 C -->
+  <path class="thread-link" d="M295 385 C420 420 560 300 595 218"/>
+
+  <!-- 5. G->lchild (ltag=1) 指向前驱 C -->
+  <path class="thread-link" d="M495 285 C475 250 535 215 585 205"/>
+
+  <!-- 6. G->rchild (rtag=1) 指向后继 D -->
+  <path class="thread-link" d="M532 295 C580 320 630 320 678 295"/>
+
+  <!-- 7. D->lchild (ltag=1) 指向前驱 G -->
+  <path class="thread-link" d="M685 280 C650 260 565 260 535 280"/>
+
+  <!-- 结点圆形与字符 -->
+  <g transform="translate(450, 110)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">A</text>
+    <text class="tag-text" x="-45" y="-12">[0,0]</text>
+  </g>
+
+  <g transform="translate(300, 200)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">B</text>
+    <text class="tag-text" x="-50" y="5">[0,1]</text>
+  </g>
+
+  <g transform="translate(600, 200)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">C</text>
+    <text class="tag-text" x="28" y="5">[0,0]</text>
+  </g>
+
+  <g transform="translate(180, 290)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">E</text>
+    <text class="tag-text" x="-50" y="5">[1,0]</text>
+  </g>
+
+  <g transform="translate(280, 380)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">F</text>
+    <text class="tag-text" x="-50" y="5">[1,1]</text>
+  </g>
+
+  <g transform="translate(510, 290)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">G</text>
+    <text class="tag-text" x="-50" y="5">[1,1]</text>
+  </g>
+
+  <g transform="translate(700, 290)">
+    <circle class="node-c" r="22"/>
+    <text class="node-text">D</text>
+    <text class="tag-text" x="28" y="5">[1,1]</text>
+  </g>
+
+  <!-- 尾结点 D->rchild 为 NULL -->
+  <line class="thread-link" x1="720" y1="298" x2="765" y2="320"/>
+  <text class="tag-text" x="770" y="325">^ NULL</text>
+
+  <!-- 图例栏 -->
+  <g transform="translate(50, 475)">
+    <line x1="0" y1="10" x2="45" y2="10" stroke="#1e6bb8" stroke-width="2.2" marker-end="url(#arr-blue2)"/>
+    <text class="legend-text" x="55" y="15">真实孩子指针（实线，tag=0）</text>
+
+    <line x1="300" y1="10" x2="345" y2="10" stroke="#d26b19" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arr-orange2)"/>
+    <text class="legend-text" x="355" y="15">先序线索指针（橙色虚线，tag=1）</text>
+
+    <text class="legend-text" x="650" y="15">结点标注：[LTag, RTag]</text>
+  </g>
+</svg>

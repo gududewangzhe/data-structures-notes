@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="330" viewBox="0 0 830 330">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .edge-dash { stroke: #829ab1; stroke-width: 1.8; stroke-dasharray: 5,4; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; stroke-dasharray: 6,4; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="175" y="22">生成树：极小连通子图（n=5，恰 4 条边）</text>
+<line class="edge-ok" x1="100" y1="90" x2="240" y2="90"/>
+<line class="edge-ok" x1="240" y1="90" x2="280" y2="190"/>
+<line class="edge-dash" x1="280" y1="190" x2="170" y2="245"/>
+<line class="edge-ok" x1="170" y1="245" x2="60" y2="190"/>
+<line class="edge-dash" x1="60" y1="190" x2="100" y2="90"/>
+<line class="edge-ok" x1="100" y1="90" x2="170" y2="245"/>
+<line class="edge-dash" x1="240" y1="90" x2="60" y2="190"/>
+<circle class="node-ok" cx="100" cy="90" r="19"/><text class="small" x="100" y="95">v1</text>
+<circle class="node-ok" cx="240" cy="90" r="19"/><text class="small" x="240" y="95">v2</text>
+<circle class="node-ok" cx="280" cy="190" r="19"/><text class="small" x="280" y="195">v3</text>
+<circle class="node-ok" cx="170" cy="245" r="19"/><text class="small" x="170" y="250">v4</text>
+<circle class="node-ok" cx="60" cy="190" r="19"/><text class="small" x="60" y="195">v5</text>
+<text class="small" x="175" y="288">含全部 5 个顶点且连通无环；加任一虚线必成环</text>
+</g>
+<g transform="translate(440, 20)">
+<text class="title" x="175" y="22">易错反例：有 n-1 条边却不是生成树</text>
+<line class="edge-hi" x1="100" y1="90" x2="240" y2="90"/>
+<line class="edge-hi" x1="240" y1="90" x2="170" y2="245"/>
+<line class="edge-hi" x1="170" y1="245" x2="60" y2="190"/>
+<line class="edge-hi" x1="60" y1="190" x2="100" y2="90"/>
+<circle class="node-hi" cx="100" cy="90" r="19"/><text class="small" x="100" y="95">v1</text>
+<circle class="node-hi" cx="240" cy="90" r="19"/><text class="small" x="240" y="95">v2</text>
+<circle class="node-bad" cx="280" cy="190" r="19"/><text class="small" x="280" y="195">v3</text>
+<circle class="node-hi" cx="170" cy="245" r="19"/><text class="small" x="170" y="250">v4</text>
+<circle class="node-hi" cx="60" cy="190" r="19"/><text class="small" x="60" y="195">v5</text>
+<text class="small" x="175" y="288">也是 5 顶点 4 条边，但有环且 v3 孤立（非连通）</text>
+</g>
+</svg>

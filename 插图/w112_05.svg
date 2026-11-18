@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="330" viewBox="0 0 920 330">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#4a607a"/></marker><marker id="arrow-hi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#d9534f"/></marker><marker id="arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2b8a3e"/></marker></defs>
+<style>
+    text { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; fill: #172b4d; font-size: 15px; text-anchor: middle; }
+    .title { font-size: 17px; font-weight: bold; fill: #0f2544; }
+    .subtitle { font-size: 15px; font-weight: bold; fill: #1d4e89; }
+    .small { font-size: 14px; fill: #334e68; }
+    .edge { stroke: #4a607a; stroke-width: 2; fill: none; }
+    .edge-hi { stroke: #d9534f; stroke-width: 2.5; fill: none; }
+    .edge-ok { stroke: #2b8a3e; stroke-width: 2.5; fill: none; }
+    .node { fill: #ffffff; stroke: #2672b8; stroke-width: 2; }
+    .node-hi { fill: #fff3cd; stroke: #d97706; stroke-width: 2.2; }
+    .node-bad { fill: #fde8e8; stroke: #c92a2a; stroke-width: 2.2; }
+    .node-ok { fill: #e6fcf5; stroke: #0ca678; stroke-width: 2.2; }
+    .box { fill: #f8fafc; stroke: #334e68; stroke-width: 1.5; }
+    .box-hi { fill: #e7f5ff; stroke: #1c7ed6; stroke-width: 1.8; }
+    .box-warn { fill: #fff4e6; stroke: #d9480f; stroke-width: 1.8; }
+</style>
+<g transform="translate(20, 20)">
+<text class="title" x="210" y="22">逻辑结构：3 个互不相交的子集（森林）</text>
+<line class="edge" x1="60" y1="160" x2="110" y2="80" marker-end="url(#arrow)"/>
+<line class="edge" x1="160" y1="160" x2="110" y2="80" marker-end="url(#arrow)"/>
+<line class="edge" x1="60" y1="240" x2="60" y2="160" marker-end="url(#arrow)"/>
+<line class="edge" x1="160" y1="240" x2="160" y2="160" marker-end="url(#arrow)"/>
+<line class="edge" x1="250" y1="160" x2="250" y2="80" marker-end="url(#arrow)"/>
+<line class="edge" x1="370" y1="160" x2="370" y2="80" marker-end="url(#arrow)"/>
+<line class="edge" x1="330" y1="240" x2="370" y2="160" marker-end="url(#arrow)"/>
+<line class="edge" x1="410" y1="240" x2="370" y2="160" marker-end="url(#arrow)"/>
+<circle class="node-ok" cx="110" cy="80" r="22"/>
+<text class="small" x="110" y="85" style="font-weight:bold;">A(0)</text>
+<circle class="node" cx="60" cy="160" r="22"/>
+<text class="small" x="60" y="165" style="font-weight:bold;">B(1)</text>
+<circle class="node" cx="160" cy="160" r="22"/>
+<text class="small" x="160" y="165" style="font-weight:bold;">C(2)</text>
+<circle class="node" cx="60" cy="240" r="22"/>
+<text class="small" x="60" y="245" style="font-weight:bold;">D(3)</text>
+<circle class="node" cx="160" cy="240" r="22"/>
+<text class="small" x="160" y="245" style="font-weight:bold;">I(8)</text>
+<circle class="node-hi" cx="250" cy="80" r="22"/>
+<text class="small" x="250" y="85" style="font-weight:bold;">E(4)</text>
+<circle class="node" cx="250" cy="160" r="22"/>
+<text class="small" x="250" y="165" style="font-weight:bold;">F(5)</text>
+<circle class="node-ok" cx="370" cy="80" r="22"/>
+<text class="small" x="370" y="85" style="font-weight:bold;">G(6)</text>
+<circle class="node" cx="370" cy="160" r="22"/>
+<text class="small" x="370" y="165" style="font-weight:bold;">H(7)</text>
+<circle class="node" cx="330" cy="240" r="22"/>
+<text class="small" x="330" y="245" style="font-weight:bold;">J(9)</text>
+<circle class="node" cx="410" cy="240" r="22"/>
+<text class="small" x="410" y="245" style="font-weight:bold;">K(10)</text>
+<text class="small" x="110" y="285">集合1（绿葡萄）</text>
+<text class="small" x="250" y="205">集合2（紫葡萄）</text>
+<text class="small" x="370" y="285">集合3（橙子）</text>
+</g>
+<g transform="translate(470, 20)">
+<text class="title" x="215" y="22">存储结构：双亲表示法数组 parent</text>
+<rect class="box-hi" x="0" y="55" width="66" height="42"/>
+<text class="small" x="33.0" y="81">下标</text>
+<rect class="box-hi" x="66" y="55" width="33" height="42"/>
+<text class="small" x="82.5" y="81">0</text>
+<rect class="box-hi" x="99" y="55" width="33" height="42"/>
+<text class="small" x="115.5" y="81">1</text>
+<rect class="box-hi" x="132" y="55" width="33" height="42"/>
+<text class="small" x="148.5" y="81">2</text>
+<rect class="box-hi" x="165" y="55" width="33" height="42"/>
+<text class="small" x="181.5" y="81">3</text>
+<rect class="box-hi" x="198" y="55" width="33" height="42"/>
+<text class="small" x="214.5" y="81">4</text>
+<rect class="box-hi" x="231" y="55" width="33" height="42"/>
+<text class="small" x="247.5" y="81">5</text>
+<rect class="box-hi" x="264" y="55" width="33" height="42"/>
+<text class="small" x="280.5" y="81">6</text>
+<rect class="box-hi" x="297" y="55" width="33" height="42"/>
+<text class="small" x="313.5" y="81">7</text>
+<rect class="box-hi" x="330" y="55" width="33" height="42"/>
+<text class="small" x="346.5" y="81">8</text>
+<rect class="box-hi" x="363" y="55" width="33" height="42"/>
+<text class="small" x="379.5" y="81">9</text>
+<rect class="box-hi" x="396" y="55" width="33" height="42"/>
+<text class="small" x="412.5" y="81">10</text>
+<rect class="box" x="0" y="97" width="66" height="42"/>
+<text class="small" x="33.0" y="123">data</text>
+<rect class="box" x="66" y="97" width="33" height="42"/>
+<text class="small" x="82.5" y="123">A</text>
+<rect class="box" x="99" y="97" width="33" height="42"/>
+<text class="small" x="115.5" y="123">B</text>
+<rect class="box" x="132" y="97" width="33" height="42"/>
+<text class="small" x="148.5" y="123">C</text>
+<rect class="box" x="165" y="97" width="33" height="42"/>
+<text class="small" x="181.5" y="123">D</text>
+<rect class="box" x="198" y="97" width="33" height="42"/>
+<text class="small" x="214.5" y="123">E</text>
+<rect class="box" x="231" y="97" width="33" height="42"/>
+<text class="small" x="247.5" y="123">F</text>
+<rect class="box" x="264" y="97" width="33" height="42"/>
+<text class="small" x="280.5" y="123">G</text>
+<rect class="box" x="297" y="97" width="33" height="42"/>
+<text class="small" x="313.5" y="123">H</text>
+<rect class="box" x="330" y="97" width="33" height="42"/>
+<text class="small" x="346.5" y="123">I</text>
+<rect class="box" x="363" y="97" width="33" height="42"/>
+<text class="small" x="379.5" y="123">J</text>
+<rect class="box" x="396" y="97" width="33" height="42"/>
+<text class="small" x="412.5" y="123">K</text>
+<rect class="box" x="0" y="139" width="66" height="42"/>
+<text class="small" x="33.0" y="165">parent</text>
+<rect class="box-hi" x="66" y="139" width="33" height="42"/>
+<text class="small" x="82.5" y="165">-1</text>
+<rect class="box" x="99" y="139" width="33" height="42"/>
+<text class="small" x="115.5" y="165">0</text>
+<rect class="box" x="132" y="139" width="33" height="42"/>
+<text class="small" x="148.5" y="165">0</text>
+<rect class="box" x="165" y="139" width="33" height="42"/>
+<text class="small" x="181.5" y="165">1</text>
+<rect class="box-hi" x="198" y="139" width="33" height="42"/>
+<text class="small" x="214.5" y="165">-1</text>
+<rect class="box" x="231" y="139" width="33" height="42"/>
+<text class="small" x="247.5" y="165">4</text>
+<rect class="box-hi" x="264" y="139" width="33" height="42"/>
+<text class="small" x="280.5" y="165">-1</text>
+<rect class="box" x="297" y="139" width="33" height="42"/>
+<text class="small" x="313.5" y="165">6</text>
+<rect class="box" x="330" y="139" width="33" height="42"/>
+<text class="small" x="346.5" y="165">2</text>
+<rect class="box" x="363" y="139" width="33" height="42"/>
+<text class="small" x="379.5" y="165">7</text>
+<rect class="box" x="396" y="139" width="33" height="42"/>
+<text class="small" x="412.5" y="165">7</text>
+<rect class="box" x="0" y="181" width="66" height="42"/>
+<text class="small" x="33.0" y="207">存-size</text>
+<rect class="box-hi" x="66" y="181" width="33" height="42"/>
+<text class="small" x="82.5" y="207">-5</text>
+<rect class="box" x="99" y="181" width="33" height="42"/>
+<text class="small" x="115.5" y="207">0</text>
+<rect class="box" x="132" y="181" width="33" height="42"/>
+<text class="small" x="148.5" y="207">0</text>
+<rect class="box" x="165" y="181" width="33" height="42"/>
+<text class="small" x="181.5" y="207">1</text>
+<rect class="box-hi" x="198" y="181" width="33" height="42"/>
+<text class="small" x="214.5" y="207">-2</text>
+<rect class="box" x="231" y="181" width="33" height="42"/>
+<text class="small" x="247.5" y="207">4</text>
+<rect class="box-hi" x="264" y="181" width="33" height="42"/>
+<text class="small" x="280.5" y="207">-4</text>
+<rect class="box" x="297" y="181" width="33" height="42"/>
+<text class="small" x="313.5" y="207">6</text>
+<rect class="box" x="330" y="181" width="33" height="42"/>
+<text class="small" x="346.5" y="207">2</text>
+<rect class="box" x="363" y="181" width="33" height="42"/>
+<text class="small" x="379.5" y="207">7</text>
+<rect class="box" x="396" y="181" width="33" height="42"/>
+<text class="small" x="412.5" y="207">7</text>
+<text class="small" x="215" y="255">追溯示例：K(10) → parent=7(H) → parent=6(G) → -1（根）</text>
+<text class="small" x="215" y="280">第4行展示按大小合并改造：根存 -size（-5, -2, -4）</text>
+</g>
+</svg>
