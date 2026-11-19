@@ -1,62 +1,62 @@
 # 广义表 $Y=(a,(b,c,d),e)$ 的等长结点链接存储示意图
 
-![广义表-Y-等长结点](插图/广义表-Y-等长结点.svg)
+![[广义表-Y-等长结点.svg]]
 
-```tikz
-\usetikzlibrary{shapes.multipart,positioning}
-\begin{document}
-\begin{tikzpicture}[
-    >=latex,
-    cell/.style={
-        draw,
-        rectangle split,
-        rectangle split horizontal,
-        rectangle split parts=3,
-        rectangle split part align=center,
-        minimum height=10mm,
-        inner sep=3pt,
-        font=\small
-    },
-    ptr/.style={->,thick}
-]
+![](插图/wt1_01.svg)
 
-% Level 1: a -> (b,c,d) -> e
-\node[cell] (a) at (0,0) {
-    0 \nodepart{two} $a$ \nodepart{three}  {}
-};
-\node[cell] (sub) at (3.5,0) {
-    1 \nodepart{two}  {} \nodepart{three}  {}
-};
-\node[cell] (e) at (7,0) {
-    0 \nodepart{two} $e$ \nodepart{three} $\wedge$
-};
+> **图注（广义表 $Y=(a,(b,c,d),e)$ 的等长结点链接存储）**：每个结点均由标志域 `tag`（`0` 表示原子、`1` 表示子表）、数据或子表指针域（`atom` / `hp`）和同层后继指针域 `tp` 三个等长域构成；入口指针 `Y` 指向顶层首结点 `a`，顶层横向 `tp` 链依次串起 `a`、子表结点（`tag=1`）和 `e`（尾指针为 `∧`），子表结点的 `hp` 向下指向第二层 `b -> c -> d`（尾指针为 `∧`），全表共 6 个结点。
 
-% Sublist (b,c,d): b -> c -> d
-\node[cell] (b) at (3.5,-2.8) {
-    0 \nodepart{two} $b$ \nodepart{three}  {}
-};
-\node[cell] (c) at (7,-2.8) {
-    0 \nodepart{two} $c$ \nodepart{three}  {}
-};
-\node[cell] (d) at (10.5,-2.8) {
-    0 \nodepart{two} $d$ \nodepart{three} $\wedge$
-};
+这一节我以广义表 $Y=(a,(b,c,d),e)$ 为例，核对一下广义表的几个基本概念和等长结点链接存储的画法。
 
-% Entry pointer
-\node[font=\large] (Y) at (-2,0) {$Y$};
-\draw[ptr] (Y.east) -- (a.west);
+## 长度、深度与表头表尾
 
-% tp pointers on level 1
-\draw[ptr] (a.three east) -- (sub.west);
-\draw[ptr] (sub.three east) -- (e.west);
+对于非空广义表 $LS=(\alpha_1,\alpha_2,\dots,\alpha_n)$，几个基础指标要分清：
 
-% hp pointer of the list node to the first sublist node b
-\draw[ptr] (sub.two south) -- (b.north);
+1. **长度**：最外层所含元素的个数（每个元素可以是原子，也可以是子表）。$Y$ 的顶层有原子 $a$、子表 $(b,c,d)$ 和原子 $e$ 共 $3$ 个元素，所以 $\mathrm{Length}(Y)=3$，不能把子表展开数成 $5$。子表 $(b,c,d)$ 本身的长度也是 $3$。
+2. **深度**：表中括号的最大嵌套重数，等价于递归定义"原子深度为 $0$，空表 `()` 深度为 $1$，非空表深度为 $1+\max\{\mathrm{Depth}(\alpha_i)\}$"。按定义算：原子 $a,b,c,d,e$ 深度为 $0$，子表 $(b,c,d)$ 深度为 $1+0=1$，因此 $Y$ 的深度为：
+   $$\mathrm{Depth}(Y)=1+\max\{0,\,1,\,0\}=2$$
+3. **表头（Head）与表尾（Tail）**：表头 $\alpha_1$ 可以是原子或子表；表尾 $(\alpha_2,\dots,\alpha_n)$ **一定还是一个广义表**（哪怕只剩一个元素或为空，外层括号都不能省）。对 $Y$ 逐层取头尾的结果如下：
+   - $\mathrm{GetHead}(Y)=a$（原子）
+   - $\mathrm{GetTail}(Y)=((b,c,d),e)$（长度为 $2$ 的表）
+   - $\mathrm{GetHead}(\mathrm{GetTail}(Y))=(b,c,d)$（子表）
+   - $\mathrm{GetTail}(\mathrm{GetTail}(Y))=(e)$（长度为 $1$ 的表，不是原子 $e$）
+   - $\mathrm{GetTail}(\mathrm{GetTail}(\mathrm{GetTail}(Y)))=()$（空表）
+   - 若要从 $Y$ 中取出原子 $c$，对应的复合操作为 $\mathrm{GetHead}(\mathrm{GetTail}(\mathrm{GetHead}(\mathrm{GetTail}(Y))))=c$。
 
-% tp pointers inside the sublist
-\draw[ptr] (b.three east) -- (c.west);
-\draw[ptr] (c.three east) -- (d.west);
+## 等长结点链接存储
 
-\end{tikzpicture}
-\end{document}
+在头尾链表表示里，表结点占 $3$ 个域，原子结点占 $2$ 个域，两类结点长度不同。为了统一结点大小、方便动态分配，我们这里采用**等长结点链接存储**：不论是原子还是子表元素，每个结点都固定占 $3$ 个域。
+
+- **`tag`**：标志域，`0` 表示当前结点存放原子，`1` 表示当前结点对应一个子表。
+- **`atom` / `hp`（共用体）**：`tag == 0` 时作为值域 `atom` 存放原子数据；`tag == 1` 时作为指针域 `hp` 指向子表的第一个元素结点（若子表为空表，则 `hp` 为 `NULL`）。
+- **`tp`**：同层尾指针，指向同一层次中的下一个元素结点；如果是该层最后一个元素，则置为 `NULL`（图中记作 `∧`）。
+
+对应的 C 语言结构定义如下：
+
+```c
+typedef enum { ATOM = 0, LIST = 1 } ElemTag;
+
+typedef struct GLNode {
+    ElemTag tag;                // 标志域：0 表示原子，1 表示子表
+    union {
+        AtomType atom;          // tag == 0 时存放原子值
+        struct GLNode *hp;      // tag == 1 时指向子表的第一个元素结点
+    };
+    struct GLNode *tp;          // 指向同一层的下一个元素结点
+} GLNode, *GList;
 ```
+
+对照上面的示意图可以看出，这种表示法让"长度"和"深度"在图上对应得很清楚：
+- 沿着顶层横向的 `tp` 链数过去，一共有 $3$ 个结点（`a` $\to$ 子表结点 $\to$ `e`），对应 $\mathrm{Length}(Y)=3$；
+- 沿着第二个结点的 `hp` 向下进入第二层，再横向数完 `b -> c -> d`，一共向下展开了 $2$ 层，对应 $\mathrm{Depth}(Y)=2$；
+- 整张表一共使用 $6$ 个等长结点，不需要像头尾链表那样为每个顶层原子再额外包一层表结点。
+
+## 小结
+
+广义表的长度只数最外层元素，深度看最大嵌套层数，取表尾的结果始终保持广义表形式。采用等长结点链接存储时，所有结点统一为 `tag`、`atom/hp`、`tp` 三个域，用 `tp` 串起同层元素、用 `hp` 引出子表，既保持了结点尺寸一致，也直接体现了广义表的层次结构。
+
+## 待核实内容
+
+1. 教材 5.5 节介绍的扩展线性链表会在最外层及每个子表前端多挂一个 `tag=1` 的表头结点，而本图采用的是无表头结点的直接等长结点画法，需核对课堂后续算法示例具体采用哪一种边界约定。
+2. `wt1_01.svg` 仅展示了非空子表的情形；对于空表 `()` 或含空子表（如 `hp == NULL`）时的结点表示约定，需结合具体习题口径确认。
+3. 本笔记尚未列出基于该等长结点结构的 `GetHead`、`GetTail` 及求深度递归代码，后续补全代码时需核对空表与单原子输入的参数检查方式。

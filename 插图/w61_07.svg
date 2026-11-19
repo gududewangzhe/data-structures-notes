@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="261.69339pt" height="155.5712pt" viewBox="-72 -72 261.69339 155.5712" style="position: absolute; top: 0pt; left: 0pt; overflow: visible;">
+<g transform="translate(15.000823974609371,17.50459289550781)">
+<g stroke-miterlimit="10" transform="scale(1,-1)"><g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <g transform="translate(-73.08447,80.19162)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">input</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="43.00065612792968" style="font-family: cmr9;" font-size="9">restricted</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 0.0 63.5207 M 0.0 63.5207 L 0.0 83.79321 L 21.62408 83.79321 L 21.62408 63.5207 Z M 21.62408 83.79321  " fill="none"></path>
+ </g>
+ <g transform="translate(8.49934,70.62169)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">1</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 21.62408 63.5207 M 21.62408 63.5207 L 21.62408 83.79321 L 43.24817 83.79321 L 43.24817 63.5207 Z M 43.24817 83.79321  " fill="none"></path>
+ </g>
+ <g transform="translate(30.12344,70.62169)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">2</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 43.24818 63.5207 M 43.24818 63.5207 L 43.24818 83.79321 L 64.87227 83.79321 L 64.87227 63.5207 Z M 64.87227 83.79321  " fill="none"></path>
+ </g>
+ <g transform="translate(51.74754,70.62169)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">3</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 64.87228 63.5207 M 64.87228 63.5207 L 64.87228 83.79321 L 86.49637 83.79321 L 86.49637 63.5207 Z M 86.49637 83.79321  " fill="none"></path>
+ </g>
+ <g transform="translate(73.37163,70.62169)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">4</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <g stroke="#00f" fill="#00f">
+ <path d=" M 110.82323 73.52168 L 88.64754 73.52168  " fill="none"></path>
+ <g transform="matrix(-1.0,0.0,0.0,-1.0,88.24754,73.52168)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ </g>
+ <g stroke="#00f" fill="#00f">
+ <g stroke="#00f" fill="#00f">
+ </g>
+ <g transform="translate(115.70738,71.77168)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#00f">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">insert</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="40.68289184570312" style="font-family: cmr7;" font-size="7">only</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="58.245493888854966" style="font-family: cmr7;" font-size="7">here</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke-width="0.8">
+ <g stroke="#f00" fill="#f00">
+ <path d=" M 11.61182 55.4116 L 85.69598 55.4116  " fill="none"></path>
+ <g transform="matrix(-1.0,0.0,0.0,-1.0,11.21182,55.4116)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ <g transform="translate(86.09598,55.4116)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(91.38052,52.98106)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">delete</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="41.5009479522705" style="font-family: cmr7;" font-size="7">either</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="64.23718643188475" style="font-family: cmr7;" font-size="7">end</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(-53.85367,-23.26065)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">1423</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="36.97314071655273" style="font-family: cmr7;" font-size="7">p</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="41.60510158538818" style="font-family: cmr7;" font-size="7">ossible;</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="69.38582134246825" style="font-family: cmr7;" font-size="7">4231</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="88.0248098373413" style="font-family: cmr7;" font-size="7">imp</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="101.49015045166013" style="font-family: cmr7;" font-size="7">ossible;</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="129.2708702087402" style="font-family: cmr7;" font-size="7">all</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="140.47926807403562" style="font-family: cmr7;" font-size="7">14</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="151.1459913253784" style="font-family: cmr7;" font-size="7">stac</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="164.76550769805905" style="font-family: cmr7;" font-size="7">k</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="171.6613836288452" style="font-family: cmr7;" font-size="7">orders</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="195.73235225677485" style="font-family: cmr7;" font-size="7">w</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="201.22542762756342" style="font-family: cmr7;" font-size="7">ork</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(-78.73721,28.83435)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">output</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="48.6533966064453" style="font-family: cmr9;" font-size="9">restricted</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 0.0 12.1634 M 0.0 12.1634 L 0.0 32.43591 L 21.62408 32.43591 L 21.62408 12.1634 Z M 21.62408 32.43591  " fill="none"></path>
+ </g>
+ <g transform="translate(8.49934,19.2648)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">1</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 21.62408 12.1634 M 21.62408 12.1634 L 21.62408 32.43591 L 43.24817 32.43591 L 43.24817 12.1634 Z M 43.24817 32.43591  " fill="none"></path>
+ </g>
+ <g transform="translate(30.12344,19.2648)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">2</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 43.24818 12.1634 M 43.24818 12.1634 L 43.24818 32.43591 L 64.87227 32.43591 L 64.87227 12.1634 Z M 64.87227 32.43591  " fill="none"></path>
+ </g>
+ <g transform="translate(51.74754,19.2648)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">3</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 64.87228 12.1634 M 64.87228 12.1634 L 64.87228 32.43591 L 86.49637 32.43591 L 86.49637 12.1634 Z M 86.49637 32.43591  " fill="none"></path>
+ </g>
+ <g transform="translate(73.37163,19.2648)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">4</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <g stroke="#00f" fill="#00f">
+ <path d=" M 11.61182 39.19342 L 85.69598 39.19342  " fill="none"></path>
+ <g transform="matrix(-1.0,0.0,0.0,-1.0,11.21182,39.19342)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ <g transform="translate(86.09598,39.19342)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ </g>
+ <g stroke="#00f" fill="#00f">
+ <g stroke="#00f" fill="#00f">
+ </g>
+ <g transform="translate(91.38052,36.76288)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#00f">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">insert</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="40.68289184570312" style="font-family: cmr7;" font-size="7">either</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="63.41913032531737" style="font-family: cmr7;" font-size="7">end</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke-width="0.8">
+ <g stroke="#f00" fill="#f00">
+ <path d=" M 110.82323 22.1648 L 88.64754 22.1648  " fill="none"></path>
+ <g transform="matrix(-1.0,0.0,0.0,-1.0,88.24754,22.1648)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke="#f00" fill="#f00">
+ </g>
+ <g transform="translate(115.70738,20.4148)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#f00">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">delete</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="41.5009479522705" style="font-family: cmr7;" font-size="7">only</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="59.06354999542235" style="font-family: cmr7;" font-size="7">here</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke-width="0.8">
+ <path d=" M 21.62408 12.1634 L 54.06003 32.43593  " fill="none"></path>
+ </g>
+ </g>
+ <g stroke="#f00" fill="#f00">
+ <g stroke-width="0.8">
+ <path d=" M 21.62408 32.43593 L 54.06003 12.1634  " fill="none"></path>
+ </g>
+ </g>
+ <g transform="translate(-17.07988,-7.04251)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">the</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="32.125893592834466" style="font-family: cmr7;" font-size="7">pair</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="48.61209583282469" style="font-family: cmr7;" font-size="7">1,2</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="61.54272270202635" style="font-family: cmr7;" font-size="7">alw</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="73.28583431243895" style="font-family: cmr7;" font-size="7">a</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="77.05668067932127" style="font-family: cmr7;" font-size="7">ys</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="87.12063312530516" style="font-family: cmr7;" font-size="7">lea</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="96.71095848083493" style="font-family: cmr7;" font-size="7">v</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="100.69709014892575" style="font-family: cmr7;" font-size="7">es</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="110.11520004272458" style="font-family: cmr7;" font-size="7">together</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(-40.50853,-44.92207)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr9;" font-size="9">4231</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="39.91734313964843" style="font-family: cmr9;" font-size="9">needs</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="65.15608024597167" style="font-family: cmr9;" font-size="9">2</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="72.86436271667479" style="font-family: cmr9;" font-size="9">and</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="90.85035514831542" style="font-family: cmr9;" font-size="9">1</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="98.55863761901853" style="font-family: cmr9;" font-size="9">separated:</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="143.859748840332" style="font-family: cmr9;" font-size="9">imp</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="159.5332565307617" style="font-family: cmr9;" font-size="9">ossible</text>
+</g> </g>
+ </g></g>
+ <g transform="translate(-83.93785,-61.10252)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(18.334152221679684,17.50459289550781)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="17.50459289550781" x="18.334152221679684" style="font-family: cmr7;" font-size="7">input</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="39.66760158538818" style="font-family: cmr7;" font-size="7">restricted:</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="78.50254631042479" style="font-family: cmr7;" font-size="7">1423</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="97.14153480529782" style="font-family: cmr7;" font-size="7">p</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="101.77349567413327" style="font-family: cmr7;" font-size="7">ossible,</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="129.55421543121335" style="font-family: cmr7;" font-size="7">4231</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="148.1932039260864" style="font-family: cmr7;" font-size="7">imp</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="161.65854454040525" style="font-family: cmr7;" font-size="7">ossible,</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="189.43926429748532" style="font-family: cmr7;" font-size="7">all</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="200.6476621627807" style="font-family: cmr7;" font-size="7">14</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="211.31438541412348" style="font-family: cmr7;" font-size="7">stac</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="224.93390178680414" style="font-family: cmr7;" font-size="7">k</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="231.82977771759028" style="font-family: cmr7;" font-size="7">orders</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="255.90074634551996" style="font-family: cmr7;" font-size="7">w</text>
+<text alignment-baseline="baseline" y="17.50459289550781" x="261.39382171630854" style="font-family: cmr7;" font-size="7">ork</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ </g></g></svg>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="249.06052pt" height="125.26231pt" viewBox="-72 -72 249.06052 125.26231" style="position: absolute; top: 0pt; left: 0pt; overflow: visible;">
+<g transform="translate(73.49192810058592,-25.394348144531243)">
+<g stroke-miterlimit="10" transform="scale(1,-1)"><g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <g transform="translate(-142.42896,10.47427)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmr9;" font-size="9">empt</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="97.12720966339108" style="font-family: cmr9;" font-size="9">y</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="105.09243488311765" style="font-family: cmr9;" font-size="9">string</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="131.37283039093015" style="font-family: cmsy9;" font-size="9">∅</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="139.08111286163327" style="font-family: cmr9;" font-size="9">:</text>
+</g> </g>
+ </g></g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke-dasharray="3.0,3.0" stroke-dashoffset="0.0">
+ <path d=" M -62.16911 0.0 M -62.16911 0.0 L -62.16911 25.67842 L -32.43593 25.67842 L -32.43593 0.0 Z M -32.43593 25.67842  " fill="none"></path>
+ </g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(-55.49005,11.46733)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmr7;" font-size="7">none</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <path d=" M -62.16911 33.7875 L -32.43593 33.7875  " fill="none"></path>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(-65.73238,38.68158)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmr7;" font-size="7">length</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="101.28372383117673" style="font-family: cmr7;" font-size="7">=</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="109.69887256622312" style="font-family: cmr7;" font-size="7">0</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(-142.42896,-41.44342)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmr9;" font-size="9">blank</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="102.26258850097653" style="font-family: cmr9;" font-size="9">string</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="128.54298400878903" style="font-family: cmr9;" font-size="9">:</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M -62.16911 -51.35686 M -62.16911 -51.35686 L -62.16911 -25.67842 L -32.43593 -25.67842 L -32.43593 -51.35686 Z M -32.43593 -25.67842  " fill="none"></path>
+ </g>
+ <g transform="translate(-49.99696,-40.327)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmsy7;" font-size="7">⊔</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M -35.1391 -51.35686 M -35.1391 -51.35686 L -35.1391 -25.67842 L -5.40591 -25.67842 L -5.40591 -51.35686 Z M -5.40591 -25.67842  " fill="none"></path>
+ </g>
+ <g transform="translate(-22.96695,-40.327)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmsy7;" font-size="7">⊔</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M -8.10907 -51.35686 M -8.10907 -51.35686 L -8.10907 -25.67842 L 21.62408 -25.67842 L 21.62408 -51.35686 Z M 21.62408 -25.67842  " fill="none"></path>
+ </g>
+ <g transform="translate(4.06305,-40.327)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmsy7;" font-size="7">⊔</text>
+</g> </g>
+ </g></g>
+ <g stroke="#808080" fill="#808080">
+ <path d=" M -62.16911 -17.56932 L 27.03001 -17.56932  " fill="none"></path>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(-59.94096,-12.67525)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmr7;" font-size="7">length</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="101.28372383117673" style="font-family: cmr7;" font-size="7">=</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="109.69887256622312" style="font-family: cmr7;" font-size="7">3,</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="118.64336681365964" style="font-family: cmr7;" font-size="7">three</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="139.115701675415" style="font-family: cmr7;" font-size="7">blanks</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(-135.10425,-73.30368)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(76.82525634765624,-25.394348144531243)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-25.394348144531243" x="76.82525634765624" style="font-family: cmr9;" font-size="9">diﬀeren</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="106.65840721130368" style="font-family: cmr9;" font-size="9">t</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="113.33891868591306" style="font-family: cmr9;" font-size="9">lengths,</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="147.82411861419675" style="font-family: cmr9;" font-size="9">diﬀeren</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="177.6572694778442" style="font-family: cmr9;" font-size="9">t</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="184.33778095245358" style="font-family: cmr9;" font-size="9">con</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="197.95574665069574" style="font-family: cmr9;" font-size="9">ten</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="210.54941749572748" style="font-family: cmr9;" font-size="9">ts:</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="224.47572135925287" style="font-family: cmr9;" font-size="9">nev</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="238.3541059494018" style="font-family: cmr9;" font-size="9">er</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="249.17001724243158" style="font-family: cmr9;" font-size="9">in</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="256.62135696411127" style="font-family: cmr9;" font-size="9">terc</text>
+<text alignment-baseline="baseline" y="-25.394348144531243" x="271.8052949905395" style="font-family: cmr9;" font-size="9">hangeable</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ </g></g></svg>

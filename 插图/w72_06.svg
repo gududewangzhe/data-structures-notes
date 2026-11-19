@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="454.15659pt" height="112.45784pt" viewBox="-72 -72 454.15659 112.45784" style="position: absolute; top: 0pt; left: 0pt; overflow: visible;">
+<g transform="translate(11.40730285644531,-10.528167724609373)">
+<g stroke-miterlimit="10" transform="scale(1,-1)"><g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <g transform="translate(5.2107,-23.76701)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr9;" font-size="9">1D:</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="32.08357143402099" style="font-family: cmr9;" font-size="9">an</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="44.930708885192864" style="font-family: cmr9;" font-size="9">axis</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 0.0 7.68225 L 58.09686 7.68225  " fill="none"></path>
+ <g transform="translate(58.49686,7.68225)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ <path d=" M 8.9627 7.68225 M 10.4027 7.68225 C 10.4027 8.47754 9.758 9.12224 8.9627 9.12224 C 8.16742 9.12224 7.52272 8.47754 7.52272 7.68225 C 7.52272 6.88696 8.16742 6.24226 8.9627 6.24226 C 9.758 6.24226 10.4027 6.88696 10.4027 7.68225 Z M 8.9627 7.68225  " stroke="none"></path>
+ <path d=" M 21.76634 7.68225 M 23.20633 7.68225 C 23.20633 8.47754 22.56163 9.12224 21.76634 9.12224 C 20.97105 9.12224 20.32635 8.47754 20.32635 7.68225 C 20.32635 6.88696 20.97105 6.24226 21.76634 6.24226 C 22.56163 6.24226 23.20633 6.88696 23.20633 7.68225 Z M 21.76634 7.68225  " stroke="none"></path>
+ <path d=" M 34.56999 7.68225 M 36.00998 7.68225 C 36.00998 8.47754 35.36528 9.12224 34.56999 9.12224 C 33.7747 9.12224 33.13 8.47754 33.13 7.68225 C 33.13 6.88696 33.7747 6.24226 34.56999 6.24226 C 35.36528 6.24226 36.00998 6.88696 36.00998 7.68225 Z M 34.56999 7.68225  " stroke="none"></path>
+ <path d=" M 47.37364 7.68225 M 48.81363 7.68225 C 48.81363 8.47754 48.16893 9.12224 47.37364 9.12224 C 46.57835 9.12224 45.93365 8.47754 45.93365 7.68225 C 45.93365 6.88696 46.57835 6.24226 47.37364 6.24226 C 48.16893 6.24226 48.81363 6.88696 48.81363 7.68225 Z M 47.37364 7.68225  " stroke="none"></path>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(-12.44104,15.64908)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr7;" font-size="7">p</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="19.37259197235107" style="font-family: cmr7;" font-size="7">oin</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="29.824031829833977" style="font-family: cmr7;" font-size="7">ts</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="38.81158447265624" style="font-family: cmr7;" font-size="7">are</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="52.17276859283446" style="font-family: cmr7;" font-size="7">the</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="65.96450996398924" style="font-family: cmr7;" font-size="7">elemen</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="89.66601943969725" style="font-family: cmr7;" font-size="7">ts</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(114.24945,-23.86705)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr9;" font-size="9">2D:</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="32.08357143402099" style="font-family: cmr9;" font-size="9">stac</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="47.80847454071044" style="font-family: cmr9;" font-size="9">k</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="55.773699760437" style="font-family: cmr9;" font-size="9">axes</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 107.55055 2.56087 L 175.89018 2.56087  " fill="none"></path>
+ <g transform="translate(176.29018,2.56087)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ <path d=" M 117.7937 2.56087 M 118.96368 2.56087 C 118.96368 3.20703 118.43987 3.73085 117.7937 3.73085 C 117.14754 3.73085 116.62372 3.20703 116.62372 2.56087 C 116.62372 1.9147 117.14754 1.39088 117.7937 1.39088 C 118.43987 1.39088 118.96368 1.9147 118.96368 2.56087 Z M 117.7937 2.56087  " stroke="none"></path>
+ <path d=" M 130.59735 2.56087 M 131.76733 2.56087 C 131.76733 3.20703 131.24352 3.73085 130.59735 3.73085 C 129.95119 3.73085 129.42737 3.20703 129.42737 2.56087 C 129.42737 1.9147 129.95119 1.39088 130.59735 1.39088 C 131.24352 1.39088 131.76733 1.9147 131.76733 2.56087 Z M 130.59735 2.56087  " stroke="none"></path>
+ <path d=" M 143.40099 2.56087 M 144.57097 2.56087 C 144.57097 3.20703 144.04715 3.73085 143.40099 3.73085 C 142.75482 3.73085 142.231 3.20703 142.231 2.56087 C 142.231 1.9147 142.75482 1.39088 143.40099 1.39088 C 144.04715 1.39088 144.57097 1.9147 144.57097 2.56087 Z M 143.40099 2.56087  " stroke="none"></path>
+ <path d=" M 156.20465 2.56087 M 157.37463 2.56087 C 157.37463 3.20703 156.85081 3.73085 156.20465 3.73085 C 155.55849 3.73085 155.03467 3.20703 155.03467 2.56087 C 155.03467 1.9147 155.55849 1.39088 156.20465 1.39088 C 156.85081 1.39088 157.37463 1.9147 157.37463 2.56087 Z M 156.20465 2.56087  " stroke="none"></path>
+ <path d=" M 169.00829 2.56087 M 170.17827 2.56087 C 170.17827 3.20703 169.65445 3.73085 169.00829 3.73085 C 168.36212 3.73085 167.8383 3.20703 167.8383 2.56087 C 167.8383 1.9147 168.36212 1.39088 169.00829 1.39088 C 169.65445 1.39088 170.17827 1.9147 170.17827 2.56087 Z M 169.00829 2.56087  " stroke="none"></path>
+ <g stroke-width="0.8">
+ <path d=" M 107.55055 13.31589 L 175.89018 13.31589  " fill="none"></path>
+ <g transform="translate(176.29018,13.31589)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ <path d=" M 117.7937 13.31589 M 118.96368 13.31589 C 118.96368 13.96205 118.43987 14.48587 117.7937 14.48587 C 117.14754 14.48587 116.62372 13.96205 116.62372 13.31589 C 116.62372 12.66972 117.14754 12.1459 117.7937 12.1459 C 118.43987 12.1459 118.96368 12.66972 118.96368 13.31589 Z M 117.7937 13.31589  " stroke="none"></path>
+ <path d=" M 130.59735 13.31589 M 131.76733 13.31589 C 131.76733 13.96205 131.24352 14.48587 130.59735 14.48587 C 129.95119 14.48587 129.42737 13.96205 129.42737 13.31589 C 129.42737 12.66972 129.95119 12.1459 130.59735 12.1459 C 131.24352 12.1459 131.76733 12.66972 131.76733 13.31589 Z M 130.59735 13.31589  " stroke="none"></path>
+ <path d=" M 143.40099 13.31589 M 144.57097 13.31589 C 144.57097 13.96205 144.04715 14.48587 143.40099 14.48587 C 142.75482 14.48587 142.231 13.96205 142.231 13.31589 C 142.231 12.66972 142.75482 12.1459 143.40099 12.1459 C 144.04715 12.1459 144.57097 12.66972 144.57097 13.31589 Z M 143.40099 13.31589  " stroke="none"></path>
+ <path d=" M 156.20465 13.31589 M 157.37463 13.31589 C 157.37463 13.96205 156.85081 14.48587 156.20465 14.48587 C 155.55849 14.48587 155.03467 13.96205 155.03467 13.31589 C 155.03467 12.66972 155.55849 12.1459 156.20465 12.1459 C 156.85081 12.1459 157.37463 12.66972 157.37463 13.31589 Z M 156.20465 13.31589  " stroke="none"></path>
+ <path d=" M 169.00829 13.31589 M 170.17827 13.31589 C 170.17827 13.96205 169.65445 14.48587 169.00829 14.48587 C 168.36212 14.48587 167.8383 13.96205 167.8383 13.31589 C 167.8383 12.66972 168.36212 12.1459 169.00829 12.1459 C 169.65445 12.1459 170.17827 12.66972 170.17827 13.31589 Z M 169.00829 13.31589  " stroke="none"></path>
+ <g stroke-width="0.8">
+ <path d=" M 107.55055 24.0709 L 175.89018 24.0709  " fill="none"></path>
+ <g transform="translate(176.29018,24.0709)">
+ <g stroke-dasharray="none" stroke-dashoffset="0.0">
+ <g stroke-linecap="round">
+ <g stroke-linejoin="round">
+ <path d=" M -2.56 3.12257 C -2.0923 1.24901 -1.05006 0.3643 0.0 0.0 C -1.05006 -0.3643 -2.0923 -1.24901 -2.56 -3.12257  " fill="none"></path>
+ </g>
+ </g>
+ </g>
+  </g>
+ </g>
+ <path d=" M 117.7937 24.0709 M 118.96368 24.0709 C 118.96368 24.71707 118.43987 25.24089 117.7937 25.24089 C 117.14754 25.24089 116.62372 24.71707 116.62372 24.0709 C 116.62372 23.42474 117.14754 22.90092 117.7937 22.90092 C 118.43987 22.90092 118.96368 23.42474 118.96368 24.0709 Z M 117.7937 24.0709  " stroke="none"></path>
+ <path d=" M 130.59735 24.0709 M 131.76733 24.0709 C 131.76733 24.71707 131.24352 25.24089 130.59735 25.24089 C 129.95119 25.24089 129.42737 24.71707 129.42737 24.0709 C 129.42737 23.42474 129.95119 22.90092 130.59735 22.90092 C 131.24352 22.90092 131.76733 23.42474 131.76733 24.0709 Z M 130.59735 24.0709  " stroke="none"></path>
+ <path d=" M 143.40099 24.0709 M 144.57097 24.0709 C 144.57097 24.71707 144.04715 25.24089 143.40099 25.24089 C 142.75482 25.24089 142.231 24.71707 142.231 24.0709 C 142.231 23.42474 142.75482 22.90092 143.40099 22.90092 C 144.04715 22.90092 144.57097 23.42474 144.57097 24.0709 Z M 143.40099 24.0709  " stroke="none"></path>
+ <path d=" M 156.20465 24.0709 M 157.37463 24.0709 C 157.37463 24.71707 156.85081 25.24089 156.20465 25.24089 C 155.55849 25.24089 155.03467 24.71707 155.03467 24.0709 C 155.03467 23.42474 155.55849 22.90092 156.20465 22.90092 C 156.85081 22.90092 157.37463 23.42474 157.37463 24.0709 Z M 156.20465 24.0709  " stroke="none"></path>
+ <path d=" M 169.00829 24.0709 M 170.17827 24.0709 C 170.17827 24.71707 169.65445 25.24089 169.00829 25.24089 C 168.36212 25.24089 167.8383 24.71707 167.8383 24.0709 C 167.8383 23.42474 168.36212 22.90092 169.00829 22.90092 C 169.65445 22.90092 170.17827 23.42474 170.17827 24.0709 Z M 169.00829 24.0709  " stroke="none"></path>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(101.44453,41.94391)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr7;" font-size="7">eac</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="25.62262821197509" style="font-family: cmr7;" font-size="7">h</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="32.73377609252929" style="font-family: cmr7;" font-size="7">axis</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="49.04776477813719" style="font-family: cmr7;" font-size="7">is</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="57.17420291900633" style="font-family: cmr7;" font-size="7">one</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="71.82705879211424" style="font-family: cmr7;" font-size="7">elemen</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="95.52856826782225" style="font-family: cmr7;" font-size="7">t</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(230.62106,-23.86705)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr9;" font-size="9">3D:</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="32.08357143402099" style="font-family: cmr9;" font-size="9">stac</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="47.80847454071044" style="font-family: cmr9;" font-size="9">k</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="55.773699760437" style="font-family: cmr9;" font-size="9">planes</text>
+</g> </g>
+ </g></g>
+ <g stroke-width="0.8">
+ <path d=" M 233.02654 1.28043 L 284.24112 1.28043 L 284.24112 26.88773 L 233.02654 26.88773 Z  " fill="none"></path>
+ </g>
+ <g stroke="#e6e6ff" fill="#e6e6ff">
+ <g stroke-opacity="0.55">
+ <g fill-opacity="0.55">
+ <path d=" M 233.02654 1.28043 M 233.02654 1.28043 L 233.02654 26.88773 L 284.24112 26.88773 L 284.24112 1.28043 Z M 284.24112 26.88773  " stroke="none"></path>
+ </g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 241.98924 9.47495 L 293.20383 9.47495 L 293.20383 35.08224 L 241.98924 35.08224 Z  " fill="none"></path>
+ </g>
+ <g stroke="#e6e6ff" fill="#e6e6ff">
+ <g stroke-opacity="0.55">
+ <g fill-opacity="0.55">
+ <path d=" M 241.98924 9.47495 M 241.98924 9.47495 L 241.98924 35.08224 L 293.20383 35.08224 L 293.20383 9.47495 Z M 293.20383 35.08224  " stroke="none"></path>
+ </g>
+ </g>
+ </g>
+ <g stroke-width="0.8">
+ <path d=" M 250.95195 17.66948 L 302.16655 17.66948 L 302.16655 43.27676 L 250.95195 43.27676 Z  " fill="none"></path>
+ </g>
+ <g stroke="#e6e6ff" fill="#e6e6ff">
+ <g stroke-opacity="0.55">
+ <g fill-opacity="0.55">
+ <path d=" M 250.95195 17.66948 M 250.95195 17.66948 L 250.95195 43.27676 L 302.16655 43.27676 L 302.16655 17.66948 Z M 302.16655 43.27676  " stroke="none"></path>
+ </g>
+ </g>
+ </g>
+ <g stroke="#808080" fill="#808080">
+ <g stroke="#808080" fill="#808080">
+ </g>
+ <g transform="translate(228.25134,53.54776)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#808080">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr7;" font-size="7">eac</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="25.62262821197509" style="font-family: cmr7;" font-size="7">h</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="32.73377609252929" style="font-family: cmr7;" font-size="7">plane</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="54.06722545623778" style="font-family: cmr7;" font-size="7">is</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="62.19366359710692" style="font-family: cmr7;" font-size="7">one</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="76.84651947021483" style="font-family: cmr7;" font-size="7">elemen</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="100.54802894592282" style="font-family: cmr7;" font-size="7">t</text>
+</g> </g>
+ </g></g>
+ </g>
+ <g transform="translate(-80.34433,-45.63303)">
+ <g stroke="none" transform="scale(-1.00375,1.00375)translate(14.740631103515621,-10.528167724609373)scale(-1,-1)"><g fill="#000">
+ <g stroke="none"> <text alignment-baseline="baseline" y="-10.528167724609373" x="14.740631103515621" style="font-family: cmr9;" font-size="9">ev</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="23.480160713195797" style="font-family: cmr9;" font-size="9">ery</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="39.17798423767089" style="font-family: cmr9;" font-size="9">lev</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="50.486941337585435" style="font-family: cmr9;" font-size="9">el</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="60.25424194335936" style="font-family: cmr9;" font-size="9">is</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="69.55557632446288" style="font-family: cmr9;" font-size="9">a</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="77.263858795166" style="font-family: cmr9;" font-size="9">v</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="81.88882827758788" style="font-family: cmr9;" font-size="9">ector</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="105.03799152374265" style="font-family: cmr9;" font-size="9">whose</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="132.3287944793701" style="font-family: cmr9;" font-size="9">elemen</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="159.8320970535278" style="font-family: cmr9;" font-size="9">ts</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="170.16120243072507" style="font-family: cmr9;" font-size="9">are</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="185.60208320617673" style="font-family: cmr9;" font-size="9">arra</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="201.83115577697748" style="font-family: cmr9;" font-size="9">ys</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="213.44497489929194" style="font-family: cmr9;" font-size="9">of</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="223.97962760925287" style="font-family: cmr9;" font-size="9">one</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="240.94132518768305" style="font-family: cmr9;" font-size="9">dimension</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="284.6764640808105" style="font-family: cmr9;" font-size="9">less,</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="304.3103799819946" style="font-family: cmr9;" font-size="9">with</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="325.37968540191645" style="font-family: cmr9;" font-size="9">the</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="341.3136119842529" style="font-family: cmr9;" font-size="9">same</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="364.4933309555053" style="font-family: cmr9;" font-size="9">lo</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="371.4307851791381" style="font-family: cmr9;" font-size="9">w</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="377.85435390472406" style="font-family: cmr9;" font-size="9">er</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="388.6702651977538" style="font-family: cmr9;" font-size="9">and</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="406.6562576293944" style="font-family: cmr9;" font-size="9">upp</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="422.3297653198241" style="font-family: cmr9;" font-size="9">er</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="433.1456766128539" style="font-family: cmr9;" font-size="9">b</text>
+<text alignment-baseline="baseline" y="-10.528167724609373" x="438.5414743423461" style="font-family: cmr9;" font-size="9">ounds</text>
+</g> </g>
+ </g></g>
+ </g>
+ </g>
+ </g></g></svg>
